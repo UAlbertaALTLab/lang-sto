@@ -1,15 +1,15 @@
-! Master compilation for Nakoda verb morphology
+! Master compilation for Stoney Nakoda verb morphology
 
-read lexc nak-stems.lexc
+read lexc sto-stems.lexc
 define Stems
 
-read lexc nak-infixes.lexc
+read lexc sto-infixes.lexc
 define Infixes
 
-read lexc nak-tags.lexc
+read lexc sto-tags.lexc
 define Tags
 
-source nak-phon.xfscript
+source sto-phon.xfscript
 define Phonology
 
 regex [ Stems .o. [ "_" -> "<<" Infixes ">>" ] ] ;

@@ -1,0 +1,97 @@
+Multichar_Symbols
+! Inflectional classes
+@P.infix.wa-ya@
+@P.infix.wa-ya-uPfx@
+@P.infix.mn-n@
+
+! Person/number flags
+@U.number.Sg@
+@U.number.Du@
+@U.number.Pl@
+@U.person.1@
+@U.person.2@
+@U.person.3@
+
+@P.number.Sg@
+@P.number.Du@
+@P.number.Pl@
+@P.person.1@
+@P.person.2@
+@P.person.3@
+
+@R.number.Sg@
+@R.number.Du@
+@R.number.Pl@
+@R.person.1@
+@R.person.2@
+@R.person.3@
+
+@D.number.Sg@
+@D.number.Du@
+@D.number.Pl@
+@D.person.1@
+@D.person.2@
+@D.person.3@
+
+! Future/Potential
+@P.mood.Pot@
+
+%<%< ! Prefix/Infix-left-edge marker
+%>%> ! Suffix/Infix-right-edge marker
+%_ ! Infix/Prefix insertion marker
+
+LEXICON Root
+wa-ya-Verbs ;
+wa-ya-uPfx-Verbs ;
+mn-n-Verbs ;
+
+LEXICON wa-ya-Verbs
+@P.infix.wa-ya@ wa-ya-Prefixes ;
+
+LEXICON wa-ya-uPfx-Verbs
+@P.infix.wa-ya-uPfx@ wa-ya-uPfx-Prefixes ;
+
+LEXICON mn-n-Verbs
+@P.infix.mn-n@ mn-n-Prefixes ;
+
+LEXICON wa-ya-Prefixes
+wa-ya-Stems ;
+
+LEXICON wa-ya-uPfx-Prefixes
+@P.number.Sg@@P.person.1@0 wa-ya-uPfx-Stems ;
+@P.number.Sg@@P.person.2@0 wa-ya-uPfx-Stems ;
+@P.number.Sg@@P.person.3@0 wa-ya-uPfx-Stems ;
+@P.number.Pl@@P.person.1@:@P.number.Pl@@P.person.1@ų%<%< wa-ya-uPfx-Stems ;
+@P.number.Du@@P.person.1@:@P.number.Du@@P.person.1@ų%<%< wa-ya-uPfx-Stems ;
+@P.number.Pl@@P.person.2@0 wa-ya-uPfx-Stems ;
+@P.number.Pl@@P.person.3@0 wa-ya-uPfx-Stems ;
+
+LEXICON mn-n-Prefixes
+@P.number.Sg@@P.person.1@0 mn-n-Stems ;
+@P.number.Sg@@P.person.2@0 mn-n-Stems ;
+@P.number.Sg@@P.person.3@0 mn-n-Stems ;
+@P.number.Pl@@P.person.1@:@P.number.Pl@@P.person.1@ų%<%< mn-n-Stems ;
+@P.number.Du@@P.person.1@:@P.number.Du@@P.person.1@ų%<%< mn-n-Stems ;
+@P.number.Pl@@P.person.2@0 mn-n-Stems ;
+@P.number.Pl@@P.person.3@0 mn-n-Stems ;
+
+LEXICON wa-ya-Stems
+ǧáǧa:0_ǧaǧa     VerbPersonSuffixes ; ! s/he makes it
+maní:ma_ni      VerbPersonSuffixes ; ! s/he walks
+
+LEXICON wa-ya-uPfx-Stems
+aktága:a_ktaga  VerbPersonSuffixes ; ! s/he runs
+
+LEXICON mn-n-Stems
+yúda:0_uda      VerbPersonSuffixes ; ! s/he eats it
+iyódąǧa:i_odąǧa VerbPersonSuffixes ; ! s/he sits down
+
+LEXICON VerbPersonSuffixes
+@U.number.Sg@0                     Verbs-EndLex ;
+@U.number.Du@:@U.number.Du@        Verbs-EndLex ;
+@U.number.Pl@:@U.number.Pl@%>%>bi  Verbs-EndLex ;
+
+LEXICON Verbs-EndLex
+# ;
+@P.mood.Pot@:@P.mood.Pot@%>%>kta # ;
+

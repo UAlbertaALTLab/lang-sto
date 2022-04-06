@@ -1,0 +1,57 @@
+Multichar_Symbols
+@R.infix.wa-ya@
+@R.infix.wa-ya-uPfx@
+@R.infix.mn-n@
+
+@U.number.Sg@
+@U.number.Du@
+@U.number.Pl@
+
+@U.person.1@
+@U.person.2@
+@U.person.3@
+
+@R.number.Sg@
+@R.number.Du@
+@R.number.Pl@
+
+@R.person.1@
+@R.person.2@
+@R.person.3@
+
+LEXICON Root
+wa-ya-Class ;
+wa-ya-uPfx-Class ;
+mn-n-Class ;
+
+LEXICON wa-ya-Class
+@R.infix.wa-ya@ wa-ya-Infixes ;
+
+LEXICON wa-ya-uPfx-Class
+@R.infix.wa-ya-uPfx@ wa-ya-uPfx-Infixes ;
+
+LEXICON mn-n-Class
+@R.infix.mn-n@ mn-n-Infixes ;
+
+LEXICON wa-ya-Infixes
+@U.person.Sg@@U.person.1@:@U.number.Sg@@U.person.1@wa # ;
+@U.number.Du@@U.person.1@:@U.number.Du@@U.person.1@ų # ;
+@U.number.Pl@@U.person.1@:@U.number.Pl@@U.person.1@ų # ;
+@U.person.2@:@U.person.2@ya # ;
+@U.person.3@:@U.person.3@0 # ;
+
+LEXICON wa-ya-uPfx-Infixes
+@U.person.Sg@@U.person.1@:@U.number.Sg@@U.person.1@wa # ;
+@U.number.Du@@U.person.1@:@U.number.Du@@U.person.1@0 # ;
+@U.number.Pl@@U.person.1@:@U.number.Pl@@U.person.1@0 # ;
+@U.person.2@:@U.person.2@ya # ;
+@U.person.3@:@U.person.3@0 # ;
+
+LEXICON mn-n-Infixes
+@U.number.Sg@@U.person.1@:@U.number.Sg@@U.person.1@mn # ;
+@U.number.Du@@U.person.1@:@U.number.Du@@U.person.1@y  # ;
+@U.number.Pl@@U.person.1@:@U.number.Pl@@U.person.1@y  # ;
+@U.person.2@n # ;
+@U.person.3@y # ;
+
+						      

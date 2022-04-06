@@ -1,0 +1,26 @@
+! Master compilation for Nakoda verb morphology
+
+read lexc nak-stems.lexc
+define Stems
+
+read lexc nak-infixes.lexc
+define Infixes
+
+read lexc nak-tags.lexc
+define Tags
+
+source nak-phon.xfscript
+define Phonology
+
+regex [ Stems .o. [ "_" -> "<<" Infixes ">>" ] ] ;
+define Verbs
+
+regex [ Verbs Tags ] ;
+twosided flag-diacritics
+define VerbMorphology
+
+set flag-is-epsilon ON
+regex [ VerbMorphology .o. Phonology ] ;
+set flag-is-epsilon OFF
+
+twosided flag-diacritics

@@ -12,17 +12,28 @@ define Bx [ "<<" | ">>" ] ;
 
 define gInsertion [ [..] -> g || ų _ "<<" Vowel ] ;
 
-define glottalStopInsertion [ [..] -> %' || Vowel _ "<<" Vowel ] ;
+define awa2au [ w -> u || a _ a ] ;
+
+define ua2a [ a -> 0 || w:u _ ] ;
+
+define aya2aa [ y -> 0 || a _ a ] ;
+
+!define glottalStopInsertion [ [..] -> %' || Vowel _ "<<" Vowel ] ;
 
 define boundaryDeletion [ [ "<<" | ">>" ] -> 0 ] ;
 
 define Ablaut [ a -> į || _ ">>" k t a .#. ] ;
 
+define gdeli [%g -> 0 || .#. _ i] ;
+
 ! Final composition of the rules
 
 regex [
-gInsertion
-.o. glottalStopInsertion
-.o. Ablaut
+Ablaut
+.o. gInsertion
 .o. boundaryDeletion
+.o. awa2au
+.o. aya2aa
+.o. ua2a
+.o. gdeli
 ] ;

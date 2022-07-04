@@ -1,7 +1,8 @@
 Multichar_Symbols
 @R.number.Sg@
-@R.number.Du@
+!@R.number.Du@
 @R.number.Pl@
+@R.number.Plmi@
 
 @R.person.1@
 @R.person.2@
@@ -9,6 +10,8 @@ Multichar_Symbols
 
 @R.mood.Pot@
 @D.mood.Pot@
+@R.senttype.Dec@
+@D.senttype.Dec@
 
 +1Sg
 +2Sg
@@ -26,11 +29,15 @@ LEXICON Subject
 @R.number.Sg@@R.person.1@+1Sg:@R.number.Sg@@R.person.1@ EndTags ;
 @R.number.Sg@@R.person.2@+2Sg:@R.number.Sg@@R.person.2@ EndTags ;
 @R.number.Sg@@R.person.3@+3Sg:@R.number.Sg@@R.person.3@ EndTags ;
-@R.number.Du@@R.person.1@+1Du:@R.number.Du@@R.person.1@ EndTags ;
+!@R.number.Du@@R.person.1@+1Du:@R.number.Du@@R.person.1@ EndTags ;
 @R.number.Pl@@R.person.1@+1Pl:@R.number.Pl@@R.person.1@ EndTags ;
 @R.number.Pl@@R.person.2@+2Pl:@R.number.Pl@@R.person.2@ EndTags ;
 @R.number.Pl@@R.person.3@+3Pl:@R.number.Pl@@R.person.3@ EndTags ;
 
+@R.number.Plmi@@R.person.1@+1Pl:@R.number.Plmi@@R.person.1@ EndTags ;
+@R.number.Plmi@@R.person.2@+2Pl:@R.number.Plmi@@R.person.2@ EndTags ;
+@R.number.Plmi@@R.person.3@+3Pl:@R.number.Plmi@@R.person.3@ EndTags ;
+
 LEXICON EndTags
-@D.mood.Pot@ # ;
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;
+@R.senttype.Dec@+Dec:@R.senttype.Dec@ # ;

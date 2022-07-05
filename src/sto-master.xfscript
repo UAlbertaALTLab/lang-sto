@@ -9,10 +9,13 @@ define Infixes
 read lexc sto-tags.lexc
 define Tags
 
+read lexc sto-prefix.lexc
+define Pref
+
 source sto-phon.xfscript
 define Phonology
 
-regex [ Stems .o. [ "_" -> "<<" Infixes ">>" ] ] ;
+regex [ Stems .o. [ "_" -> "<<" Infixes ">>" ] .o. ["&" -> Pref] ] ;
 define Verbs
 
 regex [ Verbs Tags ] ;

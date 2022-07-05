@@ -2,7 +2,8 @@ Multichar_Symbols
 ! Inflectional classes
 @P.infix.wa-ya@
 @P.infix.wa-ya-uPfx@
-@P.infix.mn-n@
+@P.infix.m-n@
+@P.prefix.wa-ya@
 
 ! Person/number flags
 @U.number.Sg@
@@ -37,6 +38,7 @@ Multichar_Symbols
 @D.person.1@
 @D.person.2@
 @D.person.3@
+@D.prefix.wa-ya@
 
 ! Future/Potential
 @P.mood.Pot@
@@ -46,76 +48,61 @@ Multichar_Symbols
 %<%< ! Prefix/Infix-left-edge marker
 %>%> ! Suffix/Infix-right-edge marker
 %_ ! Infix/Prefix insertion marker
+%=
 
 LEXICON Root
 wa-ya-Verbs ;
-wa-ya-mi-Verbs ;
-wa-ya-uPfx-Verbs ;
-mn-n-Verbs ;
+!wa-ya-mi-Verbs ;
+!wa-ya-uPfx-Verbs ;
+m-n-Verbs ;
 
 LEXICON wa-ya-Verbs
 @P.infix.wa-ya@ wa-ya-Prefixes ;
 
-LEXICON wa-ya-mi-Verbs
-@P.infix.wa-ya@ wa-ya-mi-Prefixes ;
+!LEXICON wa-ya-uPfx-Verbs
+!@P.infix.wa-ya-uPfx@ wa-ya-uPfx-Prefixes ;
 
-LEXICON wa-ya-uPfx-Verbs
-@P.infix.wa-ya-uPfx@ wa-ya-uPfx-Prefixes ;
-
-LEXICON mn-n-Verbs
-@P.infix.mn-n@ mn-n-Prefixes ;
+LEXICON m-n-Verbs
+@P.infix.m-n@ m-n-Prefixes ;
 
 LEXICON wa-ya-Prefixes
 wa-ya-Stems ;
 
-LEXICON wa-ya-mi-Prefixes
-wa-ya-mi-Stems ;
-
-LEXICON wa-ya-uPfx-Prefixes
-@P.number.Sg@@P.person.1@0 wa-ya-uPfx-Stems ;
-@P.number.Sg@@P.person.2@0 wa-ya-uPfx-Stems ;
-@P.number.Sg@@P.person.3@0 wa-ya-uPfx-Stems ;
-@P.number.Pl@@P.person.1@:@P.number.Pl@@P.person.1@ų%<%< wa-ya-uPfx-Stems ;
+!LEXICON wa-ya-uPfx-Prefixes
+!@P.number.Sg@@P.person.1@0 wa-ya-uPfx-Stems ;
+!@P.number.Sg@@P.person.2@0 wa-ya-uPfx-Stems ;
+!@P.number.Sg@@P.person.3@0 wa-ya-uPfx-Stems ;
+!@P.number.Pl@@P.person.1@:@P.number.Pl@@P.person.1@ų%<%< wa-ya-uPfx-Stems ;
 !@P.number.Du@@P.person.1@:@P.number.Du@@P.person.1@ų%<%< wa-ya-uPfx-Stems ;
-@P.number.Pl@@P.person.2@0 wa-ya-uPfx-Stems ;
-@P.number.Pl@@P.person.3@0 wa-ya-uPfx-Stems ;
+!@P.number.Pl@@P.person.2@0 wa-ya-uPfx-Stems ;
+!@P.number.Pl@@P.person.3@0 wa-ya-uPfx-Stems ;
 
-LEXICON mn-n-Prefixes
-@P.number.Sg@@P.person.1@0 mn-n-Stems ;
-@P.number.Sg@@P.person.2@0 mn-n-Stems ;
-@P.number.Sg@@P.person.3@0 mn-n-Stems ;
-@P.number.Pl@@P.person.1@:@P.number.Pl@@P.person.1@ų%<%< mn-n-Stems ;
-!@P.number.Du@@P.person.1@:@P.number.Du@@P.person.1@ų%<%< mn-n-Stems ;
-@P.number.Pl@@P.person.2@0 mn-n-Stems ;
-@P.number.Pl@@P.person.3@0 mn-n-Stems ;
+LEXICON m-n-Prefixes
+m-n-Stems ;
 
 LEXICON wa-ya-Stems
-wa-ya-full-infix ;
+@P.prefix.wa-ya@ wa-ya-double-insert ;
 wa-ya-uni-partial-infix ;
+
+LEXICON wa-ya-double-insert
+maní:&ma_ni      VerbPersonSuffixesMi ; ! for S to walk
 
 LEXICON wa-ya-uni-partial-infix
 ! Unitary Stems
 !ǧáǧa:0_ǧaǧa     VerbPersonSuffixes ; ! for S to make O
 cîga:0_cîga     VerbPersonSuffixes ; ! for S to want O
-
-LEXICON wa-ya-full-infix
 agdaa:a_gdaa VerbPersonSuffixes ; ! for S to run
-
-
-LEXICON wa-ya-mi-Stems
-! Bipartite Stems
-maní:ma_ni      VerbPersonSuffixesMi ; ! for S to walk
-
 
 LEXICON wa-ya-uPfx-Stems
 !aktága:a_ktaga  VerbPersonSuffixes ; ! s/he runs
 
-LEXICON mn-n-Stems
+LEXICON m-n-Stems
 ! Unitary Stems
 !yúda:0_uda      VerbPersonSuffixes ; ! for S to eat O
 ! Bipartite Stems
 !iyódąǧa:i_odąǧa VerbPersonSuffixes ; ! for S to sit down
-
+ishdima:0_ishdima      VerbPersonSuffixesMi ; ! for S to be asleep
+kjlfg:0_sdlkfj      VerbPersonSuffixes ;
 LEXICON VerbPersonSuffixes
 @U.number.Sg@0                     Verbs-EndLex ;
 !@U.number.Du@:@U.number.Du@        Verbs-EndLex ;
@@ -131,6 +118,6 @@ LEXICON VerbPersonSuffixesMi
 
 LEXICON Verbs-EndLex
 # ;
-@P.mood.Pot@:@P.mood.Pot@%>%>kta # ;
+!@P.mood.Pot@:@P.mood.Pot@%>%>kta # ;
 @P.senttype.Dec@:@P.senttype.Dec@%>%>d # ;
 

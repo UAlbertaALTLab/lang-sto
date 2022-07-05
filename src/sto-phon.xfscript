@@ -10,7 +10,7 @@ define Bx [ "<<" | ">>" ] ;
 
 ! (Morpho-)phonological rules
 
-define gInsertion [ [..] -> g || ų _ "<<" Vowel ] ;
+! define gInsertion [ [..] -> g || "<<" _ f ] ;
 
 define awa2au [ w -> u || a _ a ] ;
 
@@ -24,16 +24,14 @@ define boundaryDeletion [ [ "<<" | ">>" ] -> 0 ] ;
 
 define Ablaut [ a -> į || _ ">>" k t a .#. ] ;
 
-define gdeli [%g -> 0 || .#. _ i] ;
+
 
 ! Final composition of the rules
 
 regex [
 Ablaut
-.o. gInsertion
 .o. boundaryDeletion
 .o. awa2au
 .o. aya2aa
 .o. ua2a
-.o. gdeli
 ] ;

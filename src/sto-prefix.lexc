@@ -1,0 +1,36 @@
+Multichar_Symbols
+@R.prefix.wa-ya@
+@R.prefix.wa-ya-uPfx@
+@R.prefix.m-n@
+@R.prefix.wa-ya@
+@D.prefix.wa-ya@
+
+@U.number.Sg@
+!@U.number.Du@
+@U.number.Pl@
+@U.number.Plmi@
+
+@U.person.1@
+@U.person.2@
+@U.person.3@
+
+@R.number.Sg@
+!@R.number.Du@
+@R.number.Pl@
+
+@R.person.1@
+@R.person.2@
+@R.person.3@
+
+LEXICON Root
+wa-ya-Class ;
+wa-ya-uPfx-Class ;
+m-n-Class ;
+
+LEXICON wa-ya-Class
+@R.prefix.wa-ya@ wa-ya-pre ;
+
+
+LEXICON wa-ya-pre
+@U.number.Pl@@U.person.1@:@U.number.Pl@@U.person.1@i # ;
+@U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@i # ;

@@ -3,10 +3,14 @@ Multichar_Symbols
 !@R.number.Du@
 @R.number.Pl@
 @R.number.Plmi@
-
+@P.infix.wa-ya-iPfx@
+@R.infix.wa-ya-iPfx@
 @R.person.1@
 @R.person.2@
 @R.person.3@
+@P.prefix.wa-ya@
+@R.prefix.wa-ya@
+@D.prefix.wa-ya@
 
 @R.mood.Pot@
 @D.mood.Pot@

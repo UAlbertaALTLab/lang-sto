@@ -23,6 +23,8 @@ Multichar_Symbols
 @P.person.2@
 @P.person.3@
 
+@P.prefix.wa-ya@
+
 @R.number.Sg@
 !@R.number.Du@
 @R.number.Pl@
@@ -98,11 +100,11 @@ LEXICON wa-ya-uPfx-Stems
 
 LEXICON m-n-Stems
 ! Unitary Stems
-!yúda:0_uda      VerbPersonSuffixes ; ! for S to eat O
+yúda:0_uda      VerbPersonSuffixes ; ! for S to eat O
 ! Bipartite Stems
 !iyódąǧa:i_odąǧa VerbPersonSuffixes ; ! for S to sit down
 ishdima:0_ishdima      VerbPersonSuffixesMi ; ! for S to be asleep
-kjlfg:0_sdlkfj      VerbPersonSuffixes ;
+
 LEXICON VerbPersonSuffixes
 @U.number.Sg@0                     Verbs-EndLex ;
 !@U.number.Du@:@U.number.Du@        Verbs-EndLex ;

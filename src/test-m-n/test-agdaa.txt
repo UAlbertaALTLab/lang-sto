@@ -1,0 +1,6 @@
+augdaad	agdaa+1Sg+Dec
+aagdaad	agdaa+2Sg+Dec
+agdaad	agdaa+3Sg+Dec
+agigdaabid	agdaa+1Pl+Dec
+aagdaabid	agdaa+2Pl+Dec
+agdaabid	agdaa+3Pl+Dec

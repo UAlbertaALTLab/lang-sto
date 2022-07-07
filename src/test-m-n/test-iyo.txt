@@ -1,0 +1,6 @@
+imod	iyo+1Sg+Dec
+inod	iyo+2Sg+Dec
+iyod	iyo+3Sg+Dec
+igiyobid	iyo+1Pl+Dec
+inobid	iyo+2Pl+Dec
+iyobid	iyo+3Pl+Dec

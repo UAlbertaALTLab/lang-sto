@@ -1,0 +1,6 @@
+magdad	yagda+1Sg+Dec
+nagdad	yagda+2Sg+Dec
+yagdad	yagda+3Sg+Dec
+igagdamid	yagda+1Pl+Dec
+nagdamid	yagda+2Pl+Dec
+yagdamid	yagda+3Pl+Dec

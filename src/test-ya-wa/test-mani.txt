@@ -1,0 +1,6 @@
+maunid	mani+1Sg+Dec
+maanid	mani+2Sg+Dec
+manid	mani+3Sg+Dec
+imanimid	mani+1Pl+Dec
+maanimid	mani+2Pl+Dec
+manimid	mani+3Pl+Dec

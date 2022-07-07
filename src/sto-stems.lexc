@@ -94,7 +94,7 @@ agdaa:a_gdaa VerbPersonSuffixes ; ! for S to run
 
 
 LEXICON m-n-iyo
-iyo:&i_y2%$o      VerbPersonSuffixes ; !
+iyo:i_y2%$o      VerbPersonSuffixes ; !
 
 LEXICON m-n-Stems
 ! Unitary Stems

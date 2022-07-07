@@ -38,9 +38,9 @@ LEXICON Subject
 @R.number.Pl@@R.person.2@+2Pl:@R.number.Pl@@R.person.2@ EndTags ;
 @R.number.Pl@@R.person.3@+3Pl:@R.number.Pl@@R.person.3@ EndTags ;
 
-@R.number.Plmi@@R.person.1@+1Pl:@R.number.Plmi@@R.person.1@ EndTags ;
-@R.number.Plmi@@R.person.2@+2Pl:@R.number.Plmi@@R.person.2@ EndTags ;
-@R.number.Plmi@@R.person.3@+3Pl:@R.number.Plmi@@R.person.3@ EndTags ;
+@R.number.Plmi@@R.person.1@+1Plm:@R.number.Plmi@@R.person.1@ EndTags ;
+@R.number.Plmi@@R.person.2@+2Plm:@R.number.Plmi@@R.person.2@ EndTags ;
+@R.number.Plmi@@R.person.3@+3Plm:@R.number.Plmi@@R.person.3@ EndTags ;
 
 LEXICON EndTags
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;

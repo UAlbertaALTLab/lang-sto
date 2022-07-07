@@ -1,11 +1,9 @@
 Multichar_Symbols
 @R.prefix.wa-ya@
-@R.prefix.wa-ya-uPfx@
-@R.prefix.m-n@
-@R.prefix.wa-ya@
 @D.prefix.wa-ya@
-
 @P.prefix.wa-ya@
+@U.prefix.wa-ya@
+@R.prefix.m-n@
 
 @U.number.Sg@
 !@U.number.Du@
@@ -30,9 +28,14 @@ wa-ya-uPfx-Class ;
 m-n-Class ;
 
 LEXICON wa-ya-Class
-@P.prefix.wa-ya@ wa-ya-pre ;
+@R.prefix.wa-ya@ wa-ya-pre ;
 
+LEXICON m-n-Class
+@R.prefix.m-n@ m-n-pre ;
 
 LEXICON wa-ya-pre
-@U.number.Pl@@U.person.1@:@U.number.Pl@@U.person.1@ # ;
 @U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@i # ;
+
+LEXICON m-n-pre
+@U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@ig # ;
+

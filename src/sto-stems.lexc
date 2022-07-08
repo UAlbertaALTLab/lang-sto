@@ -2,12 +2,13 @@ Multichar_Symbols
 ! Inflectional classes
 @P.infix.wa-ya@
 @P.infix.wa-ya2@
-@P.infix.wa-ya-uPfx@
 @P.infix.m-n@
 @P.prefix.wa-ya@
 @R.prefix.m-n@
 @P.prefix.m-n@
 @P.infix.m-n2@
+@R.prefix.wa-ya@
+@U.prefix.wa-ya@
 
 ! Person/number flags
 @U.number.Sg@
@@ -63,28 +64,19 @@ wa-ya-Verbs ;
 m-n-Verbs ;
 
 LEXICON wa-ya-Verbs
-@P.infix.wa-ya@ wa-ya-Prefixes ;
-@P.infix.wa-ya2@ wa-ya-double ;
+@P.infix.wa-ya@ wa-ya-Reg ;
+@P.infix.wa-ya@ wa-ya-double ;
 
 LEXICON m-n-Verbs
 @P.infix.m-n@ m-n-Prefixes ;
 @P.infix.m-n2@ m-n-double ;
 
-LEXICON wa-ya-Prefixes
-wa-ya-Reg ;
 
 LEXICON m-n-Prefixes
 m-n-Stems ;
 
-LEXICON wa-ya-double
-@P.prefix.wa-ya@ wa-ya-manid ;
-
 LEXICON m-n-double
 @P.prefix.m-n@ m-n-iyo ;
-
-LEXICON wa-ya-manid
-maní:&ma_ni      VerbPersonSuffixesMi ; ! for S to walk
-
 
 LEXICON wa-ya-Reg
 ! Unitary Stems
@@ -92,6 +84,11 @@ LEXICON wa-ya-Reg
 cîga:0_cîga     VerbPersonSuffixes ; ! for S to want O
 agdaa:a_gdaa VerbPersonSuffixes ; ! for S to run
 
+LEXICON wa-ya-double
+@P.prefix.wa-ya@ wa-ya-manid ;
+
+LEXICON wa-ya-manid
+maní:&ma_ni VerbPersonSuffixesMi ;
 
 LEXICON m-n-iyo
 iyo:i_y2%$o      VerbPersonSuffixes ; !

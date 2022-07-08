@@ -24,9 +24,9 @@ Multichar_Symbols
 
 LEXICON Root
 wa-ya-Class ;
-wa-ya-uPfx-Class ;
 m-n-Class ;
 
+!@P.prefix.wa-ya@
 LEXICON wa-ya-Class
 @R.prefix.wa-ya@ wa-ya-pre ;
 
@@ -34,7 +34,10 @@ LEXICON m-n-Class
 @R.prefix.m-n@ m-n-pre ;
 
 LEXICON wa-ya-pre
+@U.person.Sg@@U.person.1@:@U.number.Sg@@U.person.1@0 # ;
 @U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@i # ;
+@U.person.2@:@U.person.2@0 # ;
+@U.person.3@:@U.person.3@0 # ;
 
 LEXICON m-n-pre
 @U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@ig # ;

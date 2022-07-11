@@ -15,6 +15,31 @@ Multichar_Symbols
 @R.senttype.Dec@
 @D.senttype.Dec@
 
+
+@R.poly.1Sg2SgO@
+@R.poly.1Sg3SgO@
+@R.poly.1Sg2PlO@
+@R.poly.1Sg3PlO@
+
+@R.poly.2Sg1SgO@
+@R.poly.2Sg3SgO@
+@R.poly.2Sg1PlO@
+@R.poly.2Sg3PlO@
+
+@R.poly.3Sg1SgO@
+@R.poly.3Sg2SgO@
+@R.poly.3Sg3SgO@
+@R.poly.3Sg1PlO@
+@R.poly.3Sg2PlO@
+@R.poly.3Sg3PlO@
+
+@R.poly.3Pl1SgO@
+@R.poly.3Pl2SgO@
+@R.poly.3Pl3SgO@
+@R.poly.3Pl1PlO@
+@R.poly.3Pl2PlO@
+@R.poly.3Pl3PlO@
+
 +1Sg
 +2Sg
 +3Sg
@@ -23,9 +48,32 @@ Multichar_Symbols
 +2Pl
 +3Pl
 
+onal-Port
++1Sg+2SgO
++1Sg+3SgO
++1Sg+2PlO
++1Sg+3PlO
++2Sg+1SgO
++2Sg+3SgO
++2Sg+2PlO
++2Sg+3PlO
++3Sg+1SgO
++3Sg+2SgO
++3Sg+3SgO
++3Sg+1PlO
++3Sg+2PlO
++3Sg+3PlO
++3Pl+1SgO
++3Pl+2SgO
++3Pl+3SgO
++3Pl+1PlO
++3Pl+2PlO
++3Pl+3PlO
+
 
 LEXICON Root
 Subject ;
+Polypersonal-Portmanteaus ;
 
 LEXICON Subject
 @R.number.Sg@@R.person.1@+1Sg:@R.number.Sg@@R.person.1@ EndTags ;
@@ -39,6 +87,34 @@ LEXICON Subject
 @R.number.Plmi@@R.person.1@+1Pl:@R.number.Plmi@@R.person.1@ EndTags ;
 @R.number.Plmi@@R.person.2@+2Pl:@R.number.Plmi@@R.person.2@ EndTags ;
 @R.number.Plmi@@R.person.3@+3Pl:@R.number.Plmi@@R.person.3@ EndTags ;
+
+
+LEXICON Polypersonal-Portmanteaus
+@R.poly.1Sg2SgO@+1Sg+2SgO:@R.poly.1Sg2SgO@ EndTags ; ! 1Sg > 2SgO 
+@R.poly.1Sg3SgO@+1Sg+3SgO:@R.poly.1Sg3SgO@ EndTags ; ! 1Sg > 3SgO 
+@R.poly.1Sg2PlO@+1Sg+2PlO:@R.poly.1Sg2PlO@ EndTags ; ! 1Sg > 2PlO 
+@R.poly.1Sg3PlO@+1Sg+3PlO:@R.poly.1Sg3PlO@ EndTags ; ! 1Sg > 3PlO
+
+@R.poly.2Sg1SgO@+2Sg+1SgO:@R.poly.2Sg1SgO@ EndTags ; ! 1Sg > 2SgO 
+@R.poly.2Sg3SgO@+2Sg+3SgO:@R.poly.2Sg3SgO@ EndTags ; ! 1Sg > 3SgO 
+@R.poly.2Sg1PlO@+2Sg+2PlO:@R.poly.2Sg2PlO@ EndTags ; ! 1Sg > 2PlO 
+@R.poly.2Sg3PlO@+2Sg+3PlO:@R.poly.2Sg3PlO@ EndTags ; ! 1Sg > 3PlO
+
+@R.poly.3Sg1SgO@+3Sg+1SgO:@R.poly.3Sg1SgO@ EndTags ; ! 3Sg > 1SgO 
+@R.poly.3Sg2SgO@+3Sg+2SgO:@R.poly.3Sg2SgO@ EndTags ; ! 3Sg > 2SgO 
+@R.poly.3Sg3SgO@+3Sg+3SgO:@R.poly.3Sg3SgO@ EndTags ; ! 3Sg > 3SgO 
+@R.poly.3Sg1PlO@+3Sg+1PlO:@R.poly.3Sg1PlO@ EndTags ; ! 3Sg > 1PlO 
+@R.poly.3Sg2PlO@+3Sg+2PlO:@R.poly.3Sg2PlO@ EndTags ; ! 3Sg > 2PlO
+@R.poly.3Sg3PlO@+3Sg+3PlO:@R.poly.3Sg3PlO@ EndTags ; ! 3Sg > 3PlO
+
+@R.poly.3Pl1SgO@+3Pl+1SgO:@R.poly.3Pl1SgO@ EndTags ; ! 3Pl > 1SgO 
+@R.poly.3Pl2SgO@+3Pl+2SgO:@R.poly.3Pl2SgO@ EndTags ; ! 3Pl > 2SgO 
+@R.poly.3Pl3SgO@+3Pl+3SgO:@R.poly.3Pl3SgO@ EndTags ; ! 3Pl > 3SgO 
+@R.poly.3Pl1PlO@+3Pl+1PlO:@R.poly.3Pl1PlO@ EndTags ; ! 3Pl > 1PlO 
+@R.poly.3Pl2PlO@+3Pl+2PlO:@R.poly.3Pl2PlO@ EndTags ; ! 3Pl > 2PlO
+@R.poly.3Pl3PlO@+3Pl+3PlO:@R.poly.3Pl3PlO@ EndTags ; ! 3Pl > 3PlO 
+
+
 
 LEXICON EndTags
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;

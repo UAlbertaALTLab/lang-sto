@@ -9,12 +9,13 @@ Multichar_Symbols
 @P.prefix.wa-ya@
 @R.prefix.wa-ya@
 @D.prefix.wa-ya@
-
+@P.infix.wa-ya-poly@
+@R.infix.wa-ya-poly@
+@U.infix.wa-ya-poly@
 @R.mood.Pot@
 @D.mood.Pot@
 @R.senttype.Dec@
 @D.senttype.Dec@
-
 
 @R.poly.1Sg2SgO@
 @R.poly.1Sg3SgO@
@@ -26,6 +27,26 @@ Multichar_Symbols
 @R.poly.2Sg1PlO@
 @R.poly.2Sg3PlO@
 
+@U.poly.1Sg2SgO@
+@U.poly.1Sg3SgO@
+@U.poly.1Sg2PlO@
+@U.poly.1Sg3PlO@
+
+@U.poly.2Sg1SgO@
+@U.poly.2Sg3SgO@
+@U.poly.2Sg1PlO@
+@U.poly.2Sg3PlO@
+
+@P.poly.1Sg2SgO@
+@P.poly.1Sg3SgO@
+@P.poly.1Sg2PlO@
+@P.poly.1Sg3PlO@
+
+@P.poly.2Sg1SgO@
+@P.poly.2Sg3SgO@
+@P.poly.2Sg1PlO@
+@P.poly.2Sg3PlO@
+
 @R.poly.3Sg1SgO@
 @R.poly.3Sg2SgO@
 @R.poly.3Sg3SgO@
@@ -33,42 +54,22 @@ Multichar_Symbols
 @R.poly.3Sg2PlO@
 @R.poly.3Sg3PlO@
 
+@R.poly.1Pl2SgO@
+@R.poly.1Pl3SgO@
+@R.poly.1Pl2PlO@
+@R.poly.1Pl3PlO@
+
+@R.poly.2Pl2SgO@
+@R.poly.2Pl3SgO@
+@R.poly.2Pl2PlO@
+@R.poly.2Pl3PlO@
+
 @R.poly.3Pl1SgO@
 @R.poly.3Pl2SgO@
 @R.poly.3Pl3SgO@
 @R.poly.3Pl1PlO@
 @R.poly.3Pl2PlO@
 @R.poly.3Pl3PlO@
-
-+1Sg
-+2Sg
-+3Sg
-+1Du
-+1Pl
-+2Pl
-+3Pl
-
-onal-Port
-+1Sg+2SgO
-+1Sg+3SgO
-+1Sg+2PlO
-+1Sg+3PlO
-+2Sg+1SgO
-+2Sg+3SgO
-+2Sg+2PlO
-+2Sg+3PlO
-+3Sg+1SgO
-+3Sg+2SgO
-+3Sg+3SgO
-+3Sg+1PlO
-+3Sg+2PlO
-+3Sg+3PlO
-+3Pl+1SgO
-+3Pl+2SgO
-+3Pl+3SgO
-+3Pl+1PlO
-+3Pl+2PlO
-+3Pl+3PlO
 
 
 LEXICON Root
@@ -90,31 +91,40 @@ LEXICON Subject
 
 
 LEXICON Polypersonal-Portmanteaus
-@R.poly.1Sg2SgO@+1Sg+2SgO:@R.poly.1Sg2SgO@ EndTags ; ! 1Sg > 2SgO 
-@R.poly.1Sg3SgO@+1Sg+3SgO:@R.poly.1Sg3SgO@ EndTags ; ! 1Sg > 3SgO 
-@R.poly.1Sg2PlO@+1Sg+2PlO:@R.poly.1Sg2PlO@ EndTags ; ! 1Sg > 2PlO 
-@R.poly.1Sg3PlO@+1Sg+3PlO:@R.poly.1Sg3PlO@ EndTags ; ! 1Sg > 3PlO
 
-@R.poly.2Sg1SgO@+2Sg+1SgO:@R.poly.2Sg1SgO@ EndTags ; ! 1Sg > 2SgO 
-@R.poly.2Sg3SgO@+2Sg+3SgO:@R.poly.2Sg3SgO@ EndTags ; ! 1Sg > 3SgO 
-@R.poly.2Sg1PlO@+2Sg+2PlO:@R.poly.2Sg2PlO@ EndTags ; ! 1Sg > 2PlO 
-@R.poly.2Sg3PlO@+2Sg+3PlO:@R.poly.2Sg3PlO@ EndTags ; ! 1Sg > 3PlO
+@R.poly.1Sg2SgO@+1Sg+2SgO:@R.poly.1Sg2SgO@ EndTags ;
+@R.poly.1Sg3SgO@+1Sg+3SgO:@R.poly.1Sg3SgO@ EndTags ;
+@R.poly.1Sg2PlO@+1Sg+2PlO:@R.poly.1Sg2PlO@ EndTags ;
+@R.poly.1Sg3PlO@+1Sg+3PlO:@R.poly.1Sg3PlO@ EndTags ;
 
-@R.poly.3Sg1SgO@+3Sg+1SgO:@R.poly.3Sg1SgO@ EndTags ; ! 3Sg > 1SgO 
-@R.poly.3Sg2SgO@+3Sg+2SgO:@R.poly.3Sg2SgO@ EndTags ; ! 3Sg > 2SgO 
-@R.poly.3Sg3SgO@+3Sg+3SgO:@R.poly.3Sg3SgO@ EndTags ; ! 3Sg > 3SgO 
-@R.poly.3Sg1PlO@+3Sg+1PlO:@R.poly.3Sg1PlO@ EndTags ; ! 3Sg > 1PlO 
-@R.poly.3Sg2PlO@+3Sg+2PlO:@R.poly.3Sg2PlO@ EndTags ; ! 3Sg > 2PlO
-@R.poly.3Sg3PlO@+3Sg+3PlO:@R.poly.3Sg3PlO@ EndTags ; ! 3Sg > 3PlO
+@R.poly.2Sg1SgO@+2Sg+1SgO:@R.poly.2Sg1SgO@ EndTags ;
+@R.poly.2Sg3SgO@+2Sg+3SgO:@R.poly.2Sg3SgO@ EndTags ;
+@R.poly.2Sg1PlO@+2Sg+1PlO:@R.poly.2Sg1PlO@ EndTags ;
+@R.poly.2Sg3PlO@+2Sg+3PlO:@R.poly.2Sg3PlO@ EndTags ;
 
-@R.poly.3Pl1SgO@+3Pl+1SgO:@R.poly.3Pl1SgO@ EndTags ; ! 3Pl > 1SgO 
-@R.poly.3Pl2SgO@+3Pl+2SgO:@R.poly.3Pl2SgO@ EndTags ; ! 3Pl > 2SgO 
-@R.poly.3Pl3SgO@+3Pl+3SgO:@R.poly.3Pl3SgO@ EndTags ; ! 3Pl > 3SgO 
-@R.poly.3Pl1PlO@+3Pl+1PlO:@R.poly.3Pl1PlO@ EndTags ; ! 3Pl > 1PlO 
-@R.poly.3Pl2PlO@+3Pl+2PlO:@R.poly.3Pl2PlO@ EndTags ; ! 3Pl > 2PlO
-@R.poly.3Pl3PlO@+3Pl+3PlO:@R.poly.3Pl3PlO@ EndTags ; ! 3Pl > 3PlO 
+@R.poly.3Sg1SgO@+3Sg+1SgO:@R.poly.3Sg1SgO@ EndTags ;
+@R.poly.3Sg2SgO@+3Sg+2SgO:@R.poly.3Sg2SgO@ EndTags ;
+@R.poly.3Sg3SgO@+3Sg+3SgO:@R.poly.3Sg3SgO@ EndTags ;
+@R.poly.3Sg1PlO@+3Sg+1PlO:@R.poly.3Sg1PlO@ EndTags ;
+@R.poly.3Sg2PlO@+3Sg+2PlO:@R.poly.3Sg2PlO@ EndTags ;
+@R.poly.3Sg3PlO@+3Sg+3PlO:@R.poly.3Sg3PlO@ EndTags ;
 
+@R.poly.1Pl2SgO@+1Pl+2SgO:@R.poly.1Pl2SgO@ EndTags ;
+@R.poly.1Pl3SgO@+1Pl+3SgO:@R.poly.1Pl3SgO@ EndTags ;
+@R.poly.1Pl2PlO@+1Pl+2PlO:@R.poly.1Pl2PlO@ EndTags ;
+@R.poly.1Pl3PlO@+1Pl+3PlO:@R.poly.1Pl3PlO@ EndTags ;
 
+@R.poly.2Pl2SgO@+2Pl+2SgO:@R.poly.2Pl2SgO@ EndTags ;
+@R.poly.2Pl3SgO@+2Pl+3SgO:@R.poly.2Pl3SgO@ EndTags ;
+@R.poly.2Pl2PlO@+2Pl+2PlO:@R.poly.2Pl2PlO@ EndTags ;
+@R.poly.2Pl3PlO@+2Pl+3PlO:@R.poly.2Pl3PlO@ EndTags ;
+
+@R.poly.3Pl1SgO@+3Pl+1SgO:@R.poly.3Pl1SgO@ EndTags ;
+@R.poly.3Pl2SgO@+3Pl+2SgO:@R.poly.3Pl2SgO@ EndTags ;
+@R.poly.3Pl3SgO@+3Pl+3SgO:@R.poly.3Pl3SgO@ EndTags ;
+@R.poly.3Pl1PlO@+3Pl+1PlO:@R.poly.3Pl1PlO@ EndTags ;
+@R.poly.3Pl2PlO@+3Pl+2PlO:@R.poly.3Pl2PlO@ EndTags ;
+@R.poly.3Pl3PlO@+3Pl+3PlO:@R.poly.3Pl3PlO@ EndTags ;
 
 LEXICON EndTags
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;

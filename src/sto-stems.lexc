@@ -9,12 +9,48 @@ Multichar_Symbols
 @P.infix.m-n2@
 @R.prefix.wa-ya@
 @U.prefix.wa-ya@
+@P.infix.wa-ya-poly@ 
+@R.infix.wa-ya-poly@ 
+@U.infix.wa-ya-poly@ 
+@D.infix.wa-ya-poly@
+
 
 ! Person/number flags
 @U.number.Sg@
 !@U.number.Du@
 @U.number.Pl@
 @U.number.Plmi@
+
+@R.poly.1Sg2SgO@
+@R.poly.1Sg3SgO@
+@R.poly.1Sg2PlO@
+@R.poly.1Sg3PlO@
+
+@R.poly.2Sg1SgO@
+@R.poly.2Sg3SgO@
+@R.poly.2Sg1PlO@
+@R.poly.2Sg3PlO@
+
+@U.poly.1Sg2SgO@
+@U.poly.1Sg3SgO@
+@U.poly.1Sg2PlO@
+@U.poly.1Sg3PlO@
+
+@U.poly.2Sg1SgO@
+@U.poly.2Sg3SgO@
+@U.poly.2Sg1PlO@
+@U.poly.2Sg3PlO@
+
+@P.poly.1Sg2SgO@
+@P.poly.1Sg3SgO@
+@P.poly.1Sg2PlO@
+@P.poly.1Sg3PlO@
+
+@P.poly.2Sg1SgO@
+@P.poly.2Sg3SgO@
+@P.poly.2Sg1PlO@
+@P.poly.2Sg3PlO@
+
 
 @U.person.1@
 @U.person.2@
@@ -62,6 +98,7 @@ y2
 LEXICON Root
 wa-ya-Verbs ;
 m-n-Verbs ;
+polypersonal ;
 
 LEXICON wa-ya-Verbs
 @P.infix.wa-ya@ wa-ya-Reg ;
@@ -71,6 +108,8 @@ LEXICON m-n-Verbs
 @P.infix.m-n@ m-n-Prefixes ;
 @P.infix.m-n2@ m-n-double ;
 
+LEXICON polypersonal
+@P.infix.wa-ya-poly@ poly-wa-ya ;
 
 LEXICON m-n-Prefixes
 m-n-Stems ;
@@ -101,8 +140,13 @@ yagda:0_agda      VerbPersonSuffixesMi ; ! for S to drink O
 !iyódąǧa:i_odąǧa VerbPersonSuffixes ; ! for S to sit down
 ishdima:0_ishdima      VerbPersonSuffixesMi ; ! for S to be asleep
 
+LEXICON poly-wa-ya
+uge:u_ge VerbPersonSuffixes ; !
+
+
+
 LEXICON VerbPersonSuffixes
-@U.number.Sg@0                     Verbs-EndLex ;
+@U.number.Sg@:@U.number.Sg@0                     Verbs-EndLex ;
 @U.number.Pl@:@U.number.Pl@%>%>bi  Verbs-EndLex ;
 
 LEXICON VerbPersonSuffixesMi

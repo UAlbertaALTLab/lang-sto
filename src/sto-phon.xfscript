@@ -24,11 +24,12 @@ define boundaryDeletion [ [ "<<" | ">>" ] -> 0 ] ;
 
 define Ablaut [ a -> į || _ ">>" k t a .#. ] ;
 define Consdel [ y2 -> 0 || Consonant _ ] ;
+define y2y [ y2 -> y || _ ] ;
 define y2g [ y2 -> g || _ "$" ] ;
 define doltoi [ "$" -> i || y2:g _ ] ;
 define yins [ [..] -> y || g "$":i _ o] ;
 define doldel [ "$" -> 0 ] ;
-
+define ydel [ y -> 0 || g _ ] ;
 
 ! Final composition of the rules
 
@@ -44,4 +45,6 @@ Ablaut
 .o. doltoi
 .o. yins
 .o. doldel
+.o. ydel
+.o. y2y
 ] ;

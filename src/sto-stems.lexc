@@ -121,6 +121,8 @@ LEXICON wa-ya-Reg
 ! Unitary Stems
 !ǧáǧa:0_ǧaǧa     VerbPersonSuffixes ; ! for S to make O
 cîga:0_cîga     VerbPersonSuffixes ; ! for S to want O
+hnuda:0_hnuda VerbPersonSuffixes ; ! for S to eat their own O
+nata:na_ta  VerbPersonSuffixes ; ! for S to kick O
 agdaa:a_gdaa VerbPersonSuffixes ; ! for S to run
 
 LEXICON wa-ya-double
@@ -134,15 +136,15 @@ iyo:i_y2%$o      VerbPersonSuffixes ; !
 
 LEXICON m-n-Stems
 ! Unitary Stems
-yúda:0_uda      VerbPersonSuffixes ; ! for S to eat O
-yagda:0_agda      VerbPersonSuffixesMi ; ! for S to drink O
+yúda:0_y2uda      VerbPersonSuffixes ; ! for S to eat O
+yagda:0_y2agda      VerbPersonSuffixesMi ; ! for S to drink O
 ! Bipartite Stems
 !iyódąǧa:i_odąǧa VerbPersonSuffixes ; ! for S to sit down
 ishdima:0_ishdima      VerbPersonSuffixesMi ; ! for S to be asleep
 
 LEXICON poly-wa-ya
-uge:u_ge VerbPersonSuffixes ; !
-
+uge:u_ge VerbPersonSuffixes ; ! for S to help O
+apa:a_pa VerbPersonSuffixes ; ! for S to hit O
 
 
 LEXICON VerbPersonSuffixes

@@ -1,6 +1,0 @@
-wacîgad	cîga+1Sg+Dec
-yacîgad	cîga+2Sg+Dec
-cîgad	cîga+3Sg+Dec
-icîgabid	cîga+1Pl+Dec
-yacîgabid	cîga+2Pl+Dec
-cîgabid	cîga+3Pl+Dec

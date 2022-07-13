@@ -1,6 +1,0 @@
-mishdimad	ishdima+1Sg+Dec
-nishdimad	ishdima+2Sg+Dec
-ishdimad	ishdima+3Sg+Dec
-igishdimamid	ishdima+1Pl+Dec
-nishdimamid	ishdima+2Pl+Dec
-ishdimamid	ishdima+3Pl+Dec

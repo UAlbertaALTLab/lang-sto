@@ -1,6 +1,0 @@
-mudad	yuda+1Sg+Dec
-nudad	yuda+2Sg+Dec
-yudad	yuda+3Sg+Dec
-igudabid	yuda+1Pl+Dec
-nudabid	yuda+2Pl+Dec
-yudabid	yuda+3Pl+Dec

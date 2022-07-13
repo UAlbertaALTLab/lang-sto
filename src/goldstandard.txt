@@ -1,0 +1,165 @@
+wacîgad	cîga+1Sg+Dec
+
+yacîgad	cîga+2Sg+Dec
+
+cîgad	cîga+3Sg+Dec
+
+icîgabid	cîga+1Pl+Dec
+
+yacîgabid	cîga+2Pl+Dec
+
+cîgabid	cîga+3Pl+Dec
+
+maunid	maní+1Sg+Dec
+
+maanid	maní+2Sg+Dec
+
+manid	maní+3Sg+Dec
+
+imanimid	maní+1Pl+Dec
+
+maanimid	maní+2Pl+Dec
+
+manimid	maní+3Pl+Dec
+
+augdaad	agdaa+1Sg+Dec
+
+aagdaad	agdaa+2Sg+Dec
+
+agdaad	agdaa+3Sg+Dec
+
+agigdaabid	agdaa+1Pl+Dec
+
+aagdaabid	agdaa+2Pl+Dec
+
+agdaabid	agdaa+3Pl+Dec
+
+mudad	yúda+1Sg+Dec
+
+nudad	yúda+2Sg+Dec
+
+yudad	yúda+3Sg+Dec
+
+igudabid	yúda+1Pl+Dec
+
+nudabid	yúda+2Pl+Dec
+
+yudabid	yúda+3Pl+Dec
+
+magdad	yagda+1Sg+Dec
+
+nagdad	yagda+2Sg+Dec
+
+yagdad	yagda+3Sg+Dec
+
+igagdamid	yagda+1Pl+Dec
+
+nagdamid	yagda+2Pl+Dec
+
+yagdamid	yagda+3Pl+Dec
+
+imod	iyo+1Sg+Dec
+
+inod	iyo+2Sg+Dec
+
+iyod	iyo+3Sg+Dec
+
+igiyobid	iyo+1Pl+Dec
+
+inobid	iyo+2Pl+Dec
+
+iyobid	iyo+3Pl+Dec
+
+mishdimad	ishdima+1Sg+Dec
+
+nishdimad	ishdima+2Sg+Dec
+
+ishdimad	ishdima+3Sg+Dec
+
+igishdimamid	ishdima+1Pl+Dec
+
+nishdimamid	ishdima+2Pl+Dec
+
+ishdimamid	ishdima+3Pl+Dec
+
+wahnagdad	hnagda+1Sg+Dec
+
+yahnagdad	hnagda+2Sg+Dec
+
+hnagdad	hnagda+3Sg+Dec
+
+ihnagdamid	hnagda+1Pl+Dec
+
+yahnagdamid	hnagda+2Pl+Dec
+
+hnagdamid	hnagda+3Pl+Dec
+
+nacitad	nata+1Sg+2SgO+Dec
+
+nautad	nata+1Sg+3SgO+Dec
+
+namaatad	nata+2Sg+1SgO+Dec
+
+naatad	nata+2Sg+3SgO+Dec
+
+namatad	nata+3Sg+1SgO+Dec
+
+nanitad	nata+3Sg+2SgO+Dec
+
+natad	nata+3Sg+3SgO+Dec
+
+uciged	uge+1Sg+2SgO+Dec
+
+uwaged	uge+1Sg+3SgO+Dec
+
+ucigebid	uge+1Sg+2PlO+Dec
+
+uwicauged	uge+1Sg+3PlO+Dec
+
+umaaged	uge+2Sg+1SgO+Dec
+
+uyaged	uge+2Sg+3SgO+Dec
+
+ugiyagebid	uge+2Sg+1PlO+Dec
+
+uwicaaged	uge+2Sg+3PlO+Dec
+
+umaged	uge+3Sg+1SgO+Dec
+
+uniged	uge+3Sg+2SgO+Dec
+
+uged	uge+3Sg+3SgO+Dec
+
+ugigebid	uge+3Sg+1PlO+Dec
+
+unigebid	uge+3Sg+1PlO+Dec
+
+uwicaged	uge+3Sg+1PlO+Dec
+
+uginigebid	uge+1Pl+2SgO+Dec
+
+ugigebid	uge+1Pl+3SgO+Dec
+
+uginigebid	uge+1Pl+2PlO+Dec
+
+uwicagigebid	uge+1Pl+3PlO+Dec
+
+umaagebid	uge+2Pl+1SgO+Dec
+
+uyagebid	uge+2Pl+3SgO+Dec
+
+ugiyagebid	uge+2Pl+1PlO+Dec
+
+uwicaagebid	uge+2Pl+3PlO+Dec
+
+umagebid	uge+3Pl+1SgO+Dec
+
+unigebid	uge+3Pl+2SgO+Dec
+
+ugebid	uge+3Pl+3SgO+Dec
+
+ugigebid	uge+3Pl+1PlO+Dec
+
+unigebid	uge+3Pl+2PlO+Dec
+
+uwicagebid	uge+3Pl+3PlO+De

@@ -102,7 +102,7 @@ polypersonal ;
 
 LEXICON wa-ya-Verbs
 @P.infix.wa-ya@ wa-ya-Reg ;
-@P.infix.wa-ya@ wa-ya-double ;
+@P.infix.wa-ya2@ wa-ya-double ;
 
 LEXICON m-n-Verbs
 @P.infix.m-n@ m-n-Prefixes ;
@@ -122,8 +122,8 @@ LEXICON wa-ya-Reg
 !ǧáǧa:0_ǧaǧa     VerbPersonSuffixes ; ! for S to make O
 cîga:0_cîga     VerbPersonSuffixes ; ! for S to want O
 hnuda:0_hnuda VerbPersonSuffixes ; ! for S to eat their own O
-nata:na_ta  VerbPersonSuffixes ; ! for S to kick O
 agdaa:a_gdaa VerbPersonSuffixes ; ! for S to run
+hnagda:0_hnagda VerbPersonSuffixesMi ; ! for S to drink their own
 
 LEXICON wa-ya-double
 @P.prefix.wa-ya@ wa-ya-manid ;
@@ -145,6 +145,7 @@ ishdima:0_ishdima      VerbPersonSuffixesMi ; ! for S to be asleep
 LEXICON poly-wa-ya
 uge:u_ge VerbPersonSuffixes ; ! for S to help O
 apa:a_pa VerbPersonSuffixes ; ! for S to hit O
+nata:na_ta  VerbPersonSuffixes ; ! for S to kick O
 
 
 LEXICON VerbPersonSuffixes

@@ -26,6 +26,8 @@ Multichar_Symbols
 @R.poly.2Sg3SgO@
 @R.poly.2Sg1PlO@
 @R.poly.2Sg3PlO@
+@R.poly.2Pl1SgO@
+@R.poly.2Pl1PlO@
 
 @U.poly.1Sg2SgO@
 @U.poly.1Sg3SgO@
@@ -36,6 +38,8 @@ Multichar_Symbols
 @U.poly.2Sg3SgO@
 @U.poly.2Sg1PlO@
 @U.poly.2Sg3PlO@
+@U.poly.2Pl1SgO@
+@U.poly.2Pl1PlO@
 
 @P.poly.1Sg2SgO@
 @P.poly.1Sg3SgO@
@@ -114,8 +118,11 @@ LEXICON Polypersonal-Portmanteaus
 @R.poly.1Pl2PlO@+1Pl+2PlO:@R.poly.1Pl2PlO@ EndTags ;
 @R.poly.1Pl3PlO@+1Pl+3PlO:@R.poly.1Pl3PlO@ EndTags ;
 
+
+@R.poly.2Pl1SgO@+2Pl+1SgO:@R.poly.2Pl1SgO@ EndTags ;
 @R.poly.2Pl2SgO@+2Pl+2SgO:@R.poly.2Pl2SgO@ EndTags ;
 @R.poly.2Pl3SgO@+2Pl+3SgO:@R.poly.2Pl3SgO@ EndTags ;
+@R.poly.2Pl1PlO@+2Pl+1PlO:@R.poly.2Pl1PlO@ EndTags ;
 @R.poly.2Pl2PlO@+2Pl+2PlO:@R.poly.2Pl2PlO@ EndTags ;
 @R.poly.2Pl3PlO@+2Pl+3PlO:@R.poly.2Pl3PlO@ EndTags ;
 

@@ -1,83 +1,83 @@
-echo "wacîgad" | flookup sto.foma
-echo "yacîgad" | flookup sto.foma
-echo "cîgad" | flookup sto.foma
-echo "icîgabid" | flookup sto.foma
-echo "yacîgabid" | flookup sto.foma
-echo "cîgabid" | flookup sto.foma
-echo "maunid" | flookup sto.foma
-echo "maanid" | flookup sto.foma
-echo "manid" | flookup sto.foma
-echo "imanimid" | flookup sto.foma
-echo "maanimid" | flookup sto.foma
-echo "manimid" | flookup sto.foma
-echo "augdaad" | flookup sto.foma
-echo "aagdaad" | flookup sto.foma
-echo "agdaad" | flookup sto.foma
-echo "agigdaabid" | flookup sto.foma
-echo "aagdaabid" | flookup sto.foma
-echo "agdaabid" | flookup sto.foma
-echo "mudad" | flookup sto.foma
-echo "nudad" | flookup sto.foma
-echo "yudad" | flookup sto.foma
-echo "igudabid" | flookup sto.foma
-echo "nudabid" | flookup sto.foma
-echo "yudabid" | flookup sto.foma
-echo "magdad" | flookup sto.foma
-echo "nagdad" | flookup sto.foma
-echo "yagdad" | flookup sto.foma
-echo "igagdamid" | flookup sto.foma
-echo "nagdamid" | flookup sto.foma
-echo "yagdamid" | flookup sto.foma
-echo "imod" | flookup sto.foma
-echo "inod" | flookup sto.foma
-echo "iyod" | flookup sto.foma
-echo "igiyobid" | flookup sto.foma
-echo "inobid" | flookup sto.foma
-echo "iyobid" | flookup sto.foma
-echo "mishdimad" | flookup sto.foma
-echo "nishdimad" | flookup sto.foma
-echo "ishdimad" | flookup sto.foma
-echo "igishdimamid" | flookup sto.foma
-echo "nishdimamid" | flookup sto.foma
-echo "ishdimamid" | flookup sto.foma
-echo "wahnagdad" | flookup sto.foma
-echo "yahnagdad" | flookup sto.foma
-echo "hnagdad" | flookup sto.foma
-echo "ihnagdamid" | flookup sto.foma
-echo "yahnagdamid" | flookup sto.foma
-echo "hnagdamid" | flookup sto.foma
-echo "nacitad" | flookup sto.foma
-echo "nautad" | flookup sto.foma
-echo "namaatad" | flookup sto.foma
-echo "naatad" | flookup sto.foma
-echo "namatad" | flookup sto.foma
-echo "nanitad" | flookup sto.foma
-echo "natad" | flookup sto.foma
-echo "uciged" | flookup sto.foma
-echo "uwaged" | flookup sto.foma
-echo "ucigebid" | flookup sto.foma
-echo "uwicauged" | flookup sto.foma
-echo "umaaged" | flookup sto.foma
-echo "uyaged" | flookup sto.foma
-echo "ugiyagebid" | flookup sto.foma
-echo "uwicaaged" | flookup sto.foma
-echo "umaged" | flookup sto.foma
-echo "uniged" | flookup sto.foma
-echo "uged" | flookup sto.foma
-echo "ugigebid" | flookup sto.foma
-echo "unigebid" | flookup sto.foma
-echo "uwicaged" | flookup sto.foma
-echo "uginigebid" | flookup sto.foma
-echo "ugigebid" | flookup sto.foma
-echo "uginigebid" | flookup sto.foma
-echo "uwicagigebid" | flookup sto.foma
-echo "umaagebid" | flookup sto.foma
-echo "uyagebid" | flookup sto.foma
-echo "ugiyagebid" | flookup sto.foma
-echo "uwicaagebid" | flookup sto.foma
-echo "umagebid" | flookup sto.foma
-echo "unigebid" | flookup sto.foma
-echo "ugebid" | flookup sto.foma
-echo "ugigebid" | flookup sto.foma
-echo "unigebid" | flookup sto.foma
-echo "uwicagebid" | flookup sto.foma
+echo "cîga+1Sg+Dec" | flookup -i sto.foma
+echo "cîga+2Sg+Dec" | flookup -i sto.foma
+echo "cîga+3Sg+Dec" | flookup -i sto.foma
+echo "cîga+1Pl+Dec" | flookup -i sto.foma
+echo "cîga+2Pl+Dec" | flookup -i sto.foma
+echo "cîga+3Pl+Dec" | flookup -i sto.foma
+echo "maní+1Sg+Dec" | flookup -i sto.foma
+echo "maní+2Sg+Dec" | flookup -i sto.foma
+echo "maní+3Sg+Dec" | flookup -i sto.foma
+echo "maní+1Pl+Dec" | flookup -i sto.foma
+echo "maní+2Pl+Dec" | flookup -i sto.foma
+echo "maní+3Pl+Dec" | flookup -i sto.foma
+echo "agdaa+1Sg+Dec" | flookup -i sto.foma
+echo "agdaa+2Sg+Dec" | flookup -i sto.foma
+echo "agdaa+3Sg+Dec" | flookup -i sto.foma
+echo "agdaa+1Pl+Dec" | flookup -i sto.foma
+echo "agdaa+2Pl+Dec" | flookup -i sto.foma
+echo "agdaa+3Pl+Dec" | flookup -i sto.foma
+echo "yúda+1Sg+Dec" | flookup -i sto.foma
+echo "yúda+2Sg+Dec" | flookup -i sto.foma
+echo "yúda+3Sg+Dec" | flookup -i sto.foma
+echo "yúda+1Pl+Dec" | flookup -i sto.foma
+echo "yúda+2Pl+Dec" | flookup -i sto.foma
+echo "yúda+3Pl+Dec" | flookup -i sto.foma
+echo "yagda+1Sg+Dec" | flookup -i sto.foma
+echo "yagda+2Sg+Dec" | flookup -i sto.foma
+echo "yagda+3Sg+Dec" | flookup -i sto.foma
+echo "yagda+1Pl+Dec" | flookup -i sto.foma
+echo "yagda+2Pl+Dec" | flookup -i sto.foma
+echo "yagda+3Pl+Dec" | flookup -i sto.foma
+echo "iyo+1Sg+Dec" | flookup -i sto.foma
+echo "iyo+2Sg+Dec" | flookup -i sto.foma
+echo "iyo+3Sg+Dec" | flookup -i sto.foma
+echo "iyo+1Pl+Dec" | flookup -i sto.foma
+echo "iyo+2Pl+Dec" | flookup -i sto.foma
+echo "iyo+3Pl+Dec" | flookup -i sto.foma
+echo "ishdima+1Sg+Dec" | flookup -i sto.foma
+echo "ishdima+2Sg+Dec" | flookup -i sto.foma
+echo "ishdima+3Sg+Dec" | flookup -i sto.foma
+echo "ishdima+1Pl+Dec" | flookup -i sto.foma
+echo "ishdima+2Pl+Dec" | flookup -i sto.foma
+echo "ishdima+3Pl+Dec" | flookup -i sto.foma
+echo "hnagda+1Sg+Dec" | flookup -i sto.foma
+echo "hnagda+2Sg+Dec" | flookup -i sto.foma
+echo "hnagda+3Sg+Dec" | flookup -i sto.foma
+echo "hnagda+1Pl+Dec" | flookup -i sto.foma
+echo "hnagda+2Pl+Dec" | flookup -i sto.foma
+echo "hnagda+3Pl+Dec" | flookup -i sto.foma
+echo "nata+1Sg+2SgO+Dec" | flookup -i sto.foma
+echo "nata+1Sg+3SgO+Dec" | flookup -i sto.foma
+echo "nata+2Sg+1SgO+Dec" | flookup -i sto.foma
+echo "nata+2Sg+3SgO+Dec" | flookup -i sto.foma
+echo "nata+3Sg+1SgO+Dec" | flookup -i sto.foma
+echo "nata+3Sg+2SgO+Dec" | flookup -i sto.foma
+echo "nata+3Sg+3SgO+Dec" | flookup -i sto.foma
+echo "uge+1Sg+2SgO+Dec" | flookup -i sto.foma
+echo "uge+1Sg+3SgO+Dec" | flookup -i sto.foma
+echo "uge+1Sg+2PlO+Dec" | flookup -i sto.foma
+echo "uge+1Sg+3PlO+Dec" | flookup -i sto.foma
+echo "uge+2Sg+1SgO+Dec" | flookup -i sto.foma
+echo "uge+2Sg+3SgO+Dec" | flookup -i sto.foma
+echo "uge+2Sg+1PlO+Dec" | flookup -i sto.foma
+echo "uge+2Sg+3PlO+Dec" | flookup -i sto.foma
+echo "uge+3Sg+1SgO+Dec" | flookup -i sto.foma
+echo "uge+3Sg+2SgO+Dec" | flookup -i sto.foma
+echo "uge+3Sg+3SgO+Dec" | flookup -i sto.foma
+echo "uge+3Sg+1PlO+Dec" | flookup -i sto.foma
+echo "uge+3Sg+2PlO+Dec" | flookup -i sto.foma
+echo "uge+3Sg+3PlO+Dec" | flookup -i sto.foma
+echo "uge+1Pl+2SgO+Dec" | flookup -i sto.foma
+echo "uge+1Pl+3SgO+Dec" | flookup -i sto.foma
+echo "uge+1Pl+2PlO+Dec" | flookup -i sto.foma
+echo "uge+1Pl+3PlO+Dec" | flookup -i sto.foma
+echo "uge+2Pl+1SgO+Dec" | flookup -i sto.foma
+echo "uge+2Pl+3SgO+Dec" | flookup -i sto.foma
+echo "uge+2Pl+1PlO+Dec" | flookup -i sto.foma
+echo "uge+2Pl+3PlO+Dec" | flookup -i sto.foma
+echo "uge+3Pl+1SgO+Dec" | flookup -i sto.foma
+echo "uge+3Pl+2SgO+Dec" | flookup -i sto.foma
+echo "uge+3Pl+3SgO+Dec" | flookup -i sto.foma
+echo "uge+3Pl+1PlO+Dec" | flookup -i sto.foma
+echo "uge+3Pl+2PlO+Dec" | flookup -i sto.foma
+echo "uge+3Pl+3PlO+Dec" | flookup -i sto.foma

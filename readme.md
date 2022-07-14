@@ -10,15 +10,15 @@ This model considers Nakoda as an infixing language. Stems have special characte
 The majority of the develoment files are in the `/src` directory and all instructions below assume it as the woeking directory.
 
 # source files
-*Stems, plural morphs, and evidential morphs are located in the `sto-stems.lexc` file.
+-Stems, plural morphs, and evidential morphs are located in the `sto-stems.lexc` file.
 
-*Infixes (including ones that surface word initially) are located in the `sto-infixes.lexc`.
+-Infixes (including ones that surface word initially) are located in the `sto-infixes.lexc`.
 
-*Prefixes for words like `maní` are found in `sto-phon.xfscript`.
+-Prefixes for words like `maní` are found in `sto-phon.xfscript`.
 
-*Morphosyntactic features `+1Sg` are located in `sto-stems.lexc`.
+-Morphosyntactic features `+1Sg` are located in `sto-stems.lexc`.
 
-*Morpho-phonological rules are found in `sto-phon.xfscript`.
+-Morpho-phonological rules are found in `sto-phon.xfscript`.
 
 # compilation
 To compile the FST you should navagat to the `/src` folder. The most recent version of the FST is available as a foma binary at `sto.foma`. You can load this into foma if you would like by running `load sto.foma` within foma. You can also use a python module like `fst-lookup`. 

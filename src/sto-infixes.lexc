@@ -137,14 +137,17 @@ LEXICON wa-ya-Infixes
 @U.person.Sg@@U.person.1@:@U.number.Sg@@U.person.1@wa # ;
 !@U.number.Du@@U.person.1@:@U.number.Du@@U.person.1@ų # ;
 @U.number.Pl@@U.person.1@%<%<g2i:@U.number.Pl@@U.person.1@%<%<gi # ;
-@U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@0 # ;
+@U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@i # ;
 
 @U.person.2@:@U.person.2@ya # ;
 @U.person.3@:@U.person.3@0 # ;
 
 LEXICON wa-ya-Infixes2
 @U.person.Sg@@U.person.1@:@U.number.Sg@@U.person.1@wa # ;
-@U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@  # ;
+!@U.number.Du@@U.person.1@:@U.number.Du@@U.person.1@ų # ;
+@U.number.Pl@@U.person.1@%<%<g2i:@U.number.Pl@@U.person.1@%<%<gi # ;
+@U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@0 # ;
+
 @U.person.2@:@U.person.2@ya # ;
 @U.person.3@:@U.person.3@0 # ;
 

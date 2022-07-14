@@ -1,5 +1,5 @@
 # lang-sto
-This is the preliminary repo for the Nakoda FST. This project is developed by <a ref="https://a.ttic.us">Atticus G. Harrigan</a>, <a ref="https://sites.ualberta.ca/~arppe/english.html">Antti Arppe</a>, and Jordan Lachler. Development has recieved support from the Univeristy of Alberta's <a hrf="https://silr.ca/">Supporting Indigenous Language Revitalization</a> and the <a href="https://www.ualberta.ca/canadian-indigenous-languages-and-literacy-development-institute/index.html">Canadian Indigenous Languages and Literacy Development Institute</a>.
+This is the preliminary repo for the Nakoda FST. This project is developed by <a href="https://a.ttic.us">Atticus G. Harrigan</a>, <a ref="https://sites.ualberta.ca/~arppe/english.html">Antti Arppe</a>, and Jordan Lachler. Development has recieved support from the Univeristy of Alberta's <a href="https://altlab.ualberta.ca/">Alberta Language Technology Laboratory</a>, <a href="https://silr.ca/">Supporting Indigenous Language Revitalization</a> and the <a href="https://www.ualberta.ca/canadian-indigenous-languages-and-literacy-development-institute/index.html">Canadian Indigenous Languages and Literacy Development Institute</a>.
 
 Eventually this repo will be migtrated into the Giellatekno Infrastructure. **THIS IS CURRENTLY THE ACTIVE DEVELOPMENT REPO**.
 

@@ -18,8 +18,8 @@ Multichar_Symbols
 @U.person.2imp@
 @P.person.2imp@
 @R.person.2imp@
-
-
+@D.mood.immimp@
+@D.person.2imp@
 ! Person/number flags
 @U.number.Sg@
 !@U.number.Du@
@@ -95,6 +95,7 @@ y2
 @P.mood.Pot@
 ! Declarative
 @P.senttype.Dec@
+@P.aspect.prosp@
 
 %<%< ! Prefix/Infix-left-edge marker
 %>%> ! Suffix/Infix-right-edge marker
@@ -161,12 +162,20 @@ LEXICON VerbPersonSuffixes
 
 LEXICON VerbPersonSuffixesMi
 @U.number.Sg@0                     Verbs-EndLex ;
-@U.number.Plmi@:@U.number.Plmi@%>%>mi  Verbs-EndLex ;
+@D.person.2imp@@U.number.Pl@:@D.person.2imp@@U.number.Pl@%>%>mi  Verbs-EndLex ;
+@U.number.Pl@@U.person.2imp@:@U.number.Pl@@U.person.2imp@%>%>m  Verbs-EndLex ;
 
 
 LEXICON Verbs-EndLex
 # ;
 !@P.mood.Pot@:@P.mood.Pot@%>%>kta # ;
+@D.person.2imp@@D.mood.immimp@:@D.person.2imp@@D.mood.immimp@ Non-imp-End ;
+@R.person.2imp@@P.mood.immimp@:@R.person.2imp@@P.mood.immimp@%>%>0 # ;
+@R.person.2imp@@P.mood.immimpdel@:@R.person.2imp@@P.mood.immimpdel@%>%>cun # ;
+
+LEXICON Non-imp-End
+Senttype ;
+@P.aspect.prosp@:@P.aspect.prosp@%>%>?aa Senttype ;
+
+LEXICON Senttype
 @P.senttype.Dec@:@P.senttype.Dec@%>%>d # ;
-@D.person.1@@D.person.2@@D.person.3@@P.mood.immimp@:@D.person.1@@D.person.2@@D.person.3@@P.mood.immimp@%>%>0 # ;
-@D.person.1@@D.person.2@@D.person.3@@P.mood.immimpdel@:@D.person.1@@D.person.2@@D.person.3@@P.mood.immimpdel@%>%>cun # ;

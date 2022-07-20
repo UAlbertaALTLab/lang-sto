@@ -81,68 +81,73 @@ Multichar_Symbols
 @R.poly.3Pl2PlO@
 @R.poly.3Pl3PlO@
 
+@R.aspect.prosp@
 
 LEXICON Root
 Subject ;
 Polypersonal-Portmanteaus ;
 
 LEXICON Subject
-@R.number.Sg@@R.person.1@+1Sg:@R.number.Sg@@R.person.1@ EndTags ;
-@R.number.Sg@@R.person.2@+2Sg:@R.number.Sg@@R.person.2@ EndTags ;
-@R.number.Sg@@R.person.3@+3Sg:@R.number.Sg@@R.person.3@ EndTags ;
-!@R.number.Du@@R.person.1@+1Du:@R.number.Du@@R.person.1@ EndTags ;
-@R.number.Pl@@R.person.1@+1Pl:@R.number.Pl@@R.person.1@ EndTags ;
-@R.number.Pl@@R.person.2@+2Pl:@R.number.Pl@@R.person.2@ EndTags ;
-@R.number.Pl@@R.person.3@+3Pl:@R.number.Pl@@R.person.3@ EndTags ;
+@R.number.Sg@@R.person.1@+1Sg:@R.number.Sg@@R.person.1@ Aspect ;
+@R.number.Sg@@R.person.2@+2Sg:@R.number.Sg@@R.person.2@ Aspect ;
+@R.number.Sg@@R.person.3@+3Sg:@R.number.Sg@@R.person.3@ Aspect ;
+!@R.number.Du@@R.person.1@+1Du:@R.number.Du@@R.person.1@ Aspect ;
+@R.number.Pl@@R.person.1@+1Pl:@R.number.Pl@@R.person.1@ Aspect ;
+@R.number.Pl@@R.person.2@+2Pl:@R.number.Pl@@R.person.2@ Aspect ;
+@R.number.Pl@@R.person.3@+3Pl:@R.number.Pl@@R.person.3@ Aspect ;
 
-@R.number.Sg@@R.person.2imp@+2Sg+Imm+Imp:@R.number.Sg@@R.person.2imp@ EndTags ;
-@R.number.Pl@@R.person.2imp@+2Pl+Imm+Imp:@R.number.Pl@@R.person.2imp@ EndTags ;
+@R.number.Sg@@R.person.2imp@+2Sg+Imp:@R.number.Sg@@R.person.2imp@ Aspect ;
+@R.number.Pl@@R.person.2imp@+2Pl+Imp:@R.number.Pl@@R.person.2imp@ Aspect ;
 
 
 
-@R.number.Plmi@@R.person.1@+1Pl:@R.number.Plmi@@R.person.1@ EndTags ;
-@R.number.Plmi@@R.person.2@+2Pl:@R.number.Plmi@@R.person.2@ EndTags ;
-@R.number.Plmi@@R.person.3@+3Pl:@R.number.Plmi@@R.person.3@ EndTags ;
+@R.number.Plmi@@R.person.1@+1Pl:@R.number.Plmi@@R.person.1@ Aspect ;
+@R.number.Plmi@@R.person.2@+2Pl:@R.number.Plmi@@R.person.2@ Aspect ;
+@R.number.Plmi@@R.person.3@+3Pl:@R.number.Plmi@@R.person.3@ Aspect ;
 
 
 LEXICON Polypersonal-Portmanteaus
 
-@R.poly.1Sg2SgO@+1Sg+2SgO:@R.poly.1Sg2SgO@ EndTags ;
-@R.poly.1Sg3SgO@+1Sg+3SgO:@R.poly.1Sg3SgO@ EndTags ;
-@R.poly.1Sg2PlO@+1Sg+2PlO:@R.poly.1Sg2PlO@ EndTags ;
-@R.poly.1Sg3PlO@+1Sg+3PlO:@R.poly.1Sg3PlO@ EndTags ;
+@R.poly.1Sg2SgO@+1Sg+2SgO:@R.poly.1Sg2SgO@ Aspect ;
+@R.poly.1Sg3SgO@+1Sg+3SgO:@R.poly.1Sg3SgO@ Aspect ;
+@R.poly.1Sg2PlO@+1Sg+2PlO:@R.poly.1Sg2PlO@ Aspect ;
+@R.poly.1Sg3PlO@+1Sg+3PlO:@R.poly.1Sg3PlO@ Aspect ;
 
-@R.poly.2Sg1SgO@+2Sg+1SgO:@R.poly.2Sg1SgO@ EndTags ;
-@R.poly.2Sg3SgO@+2Sg+3SgO:@R.poly.2Sg3SgO@ EndTags ;
-@R.poly.2Sg1PlO@+2Sg+1PlO:@R.poly.2Sg1PlO@ EndTags ;
-@R.poly.2Sg3PlO@+2Sg+3PlO:@R.poly.2Sg3PlO@ EndTags ;
+@R.poly.2Sg1SgO@+2Sg+1SgO:@R.poly.2Sg1SgO@ Aspect ;
+@R.poly.2Sg3SgO@+2Sg+3SgO:@R.poly.2Sg3SgO@ Aspect ;
+@R.poly.2Sg1PlO@+2Sg+1PlO:@R.poly.2Sg1PlO@ Aspect ;
+@R.poly.2Sg3PlO@+2Sg+3PlO:@R.poly.2Sg3PlO@ Aspect ;
 
-@R.poly.3Sg1SgO@+3Sg+1SgO:@R.poly.3Sg1SgO@ EndTags ;
-@R.poly.3Sg2SgO@+3Sg+2SgO:@R.poly.3Sg2SgO@ EndTags ;
-@R.poly.3Sg3SgO@+3Sg+3SgO:@R.poly.3Sg3SgO@ EndTags ;
-@R.poly.3Sg1PlO@+3Sg+1PlO:@R.poly.3Sg1PlO@ EndTags ;
-@R.poly.3Sg2PlO@+3Sg+2PlO:@R.poly.3Sg2PlO@ EndTags ;
-@R.poly.3Sg3PlO@+3Sg+3PlO:@R.poly.3Sg3PlO@ EndTags ;
+@R.poly.3Sg1SgO@+3Sg+1SgO:@R.poly.3Sg1SgO@ Aspect ;
+@R.poly.3Sg2SgO@+3Sg+2SgO:@R.poly.3Sg2SgO@ Aspect ;
+@R.poly.3Sg3SgO@+3Sg+3SgO:@R.poly.3Sg3SgO@ Aspect ;
+@R.poly.3Sg1PlO@+3Sg+1PlO:@R.poly.3Sg1PlO@ Aspect ;
+@R.poly.3Sg2PlO@+3Sg+2PlO:@R.poly.3Sg2PlO@ Aspect ;
+@R.poly.3Sg3PlO@+3Sg+3PlO:@R.poly.3Sg3PlO@ Aspect ;
 
-@R.poly.1Pl2SgO@+1Pl+2SgO:@R.poly.1Pl2SgO@ EndTags ;
-@R.poly.1Pl3SgO@+1Pl+3SgO:@R.poly.1Pl3SgO@ EndTags ;
-@R.poly.1Pl2PlO@+1Pl+2PlO:@R.poly.1Pl2PlO@ EndTags ;
-@R.poly.1Pl3PlO@+1Pl+3PlO:@R.poly.1Pl3PlO@ EndTags ;
+@R.poly.1Pl2SgO@+1Pl+2SgO:@R.poly.1Pl2SgO@ Aspect ;
+@R.poly.1Pl3SgO@+1Pl+3SgO:@R.poly.1Pl3SgO@ Aspect ;
+@R.poly.1Pl2PlO@+1Pl+2PlO:@R.poly.1Pl2PlO@ Aspect ;
+@R.poly.1Pl3PlO@+1Pl+3PlO:@R.poly.1Pl3PlO@ Aspect ;
 
 
-@R.poly.2Pl1SgO@+2Pl+1SgO:@R.poly.2Pl1SgO@ EndTags ;
-@R.poly.2Pl2SgO@+2Pl+2SgO:@R.poly.2Pl2SgO@ EndTags ;
-@R.poly.2Pl3SgO@+2Pl+3SgO:@R.poly.2Pl3SgO@ EndTags ;
-@R.poly.2Pl1PlO@+2Pl+1PlO:@R.poly.2Pl1PlO@ EndTags ;
-@R.poly.2Pl2PlO@+2Pl+2PlO:@R.poly.2Pl2PlO@ EndTags ;
-@R.poly.2Pl3PlO@+2Pl+3PlO:@R.poly.2Pl3PlO@ EndTags ;
+@R.poly.2Pl1SgO@+2Pl+1SgO:@R.poly.2Pl1SgO@ Aspect ;
+@R.poly.2Pl2SgO@+2Pl+2SgO:@R.poly.2Pl2SgO@ Aspect ;
+@R.poly.2Pl3SgO@+2Pl+3SgO:@R.poly.2Pl3SgO@ Aspect ;
+@R.poly.2Pl1PlO@+2Pl+1PlO:@R.poly.2Pl1PlO@ Aspect ;
+@R.poly.2Pl2PlO@+2Pl+2PlO:@R.poly.2Pl2PlO@ Aspect ;
+@R.poly.2Pl3PlO@+2Pl+3PlO:@R.poly.2Pl3PlO@ Aspect ;
 
-@R.poly.3Pl1SgO@+3Pl+1SgO:@R.poly.3Pl1SgO@ EndTags ;
-@R.poly.3Pl2SgO@+3Pl+2SgO:@R.poly.3Pl2SgO@ EndTags ;
-@R.poly.3Pl3SgO@+3Pl+3SgO:@R.poly.3Pl3SgO@ EndTags ;
-@R.poly.3Pl1PlO@+3Pl+1PlO:@R.poly.3Pl1PlO@ EndTags ;
-@R.poly.3Pl2PlO@+3Pl+2PlO:@R.poly.3Pl2PlO@ EndTags ;
-@R.poly.3Pl3PlO@+3Pl+3PlO:@R.poly.3Pl3PlO@ EndTags ;
+@R.poly.3Pl1SgO@+3Pl+1SgO:@R.poly.3Pl1SgO@ Aspect ;
+@R.poly.3Pl2SgO@+3Pl+2SgO:@R.poly.3Pl2SgO@ Aspect ;
+@R.poly.3Pl3SgO@+3Pl+3SgO:@R.poly.3Pl3SgO@ Aspect ;
+@R.poly.3Pl1PlO@+3Pl+1PlO:@R.poly.3Pl1PlO@ Aspect ;
+@R.poly.3Pl2PlO@+3Pl+2PlO:@R.poly.3Pl2PlO@ Aspect ;
+@R.poly.3Pl3PlO@+3Pl+3PlO:@R.poly.3Pl3PlO@ Aspect ;
+
+LEXICON Aspect
+EndTags ;
+@R.aspect.prosp@+Prosp:@R.aspect.prosp@ EndTags ;
 
 LEXICON EndTags
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;

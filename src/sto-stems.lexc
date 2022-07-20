@@ -13,6 +13,11 @@ Multichar_Symbols
 @R.infix.wa-ya-poly@ 
 @U.infix.wa-ya-poly@ 
 @D.infix.wa-ya-poly@
+@P.mood.immimp@
+@P.mood.immimpdel@
+@U.person.2imp@
+@P.person.2imp@
+@R.person.2imp@
 
 
 ! Person/number flags
@@ -73,6 +78,7 @@ Multichar_Symbols
 @R.person.1@
 @R.person.2@
 @R.person.3@
+
 
 @D.number.Sg@
 !@D.number.Du@
@@ -150,7 +156,8 @@ nata:na_ta  VerbPersonSuffixes ; ! for S to kick O
 
 LEXICON VerbPersonSuffixes
 @U.number.Sg@:@U.number.Sg@0                     Verbs-EndLex ;
-@U.number.Pl@:@U.number.Pl@%>%>bi  Verbs-EndLex ;
+@D.person.2imp@@U.number.Pl@:@D.person.2imp@@U.number.Pl@%>%>bi  Verbs-EndLex ;
+@U.number.Pl@@U.person.2imp@:@U.number.Pl@@U.person.2imp@%>%>m  Verbs-EndLex ;
 
 LEXICON VerbPersonSuffixesMi
 @U.number.Sg@0                     Verbs-EndLex ;
@@ -161,4 +168,5 @@ LEXICON Verbs-EndLex
 # ;
 !@P.mood.Pot@:@P.mood.Pot@%>%>kta # ;
 @P.senttype.Dec@:@P.senttype.Dec@%>%>d # ;
-
+@D.person.1@@D.person.2@@D.person.3@@P.mood.immimp@:@D.person.1@@D.person.2@@D.person.3@@P.mood.immimp@%>%>0 # ;
+@D.person.1@@D.person.2@@D.person.3@@P.mood.immimpdel@:@D.person.1@@D.person.2@@D.person.3@@P.mood.immimpdel@%>%>cun # ;

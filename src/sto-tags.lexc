@@ -5,6 +5,8 @@ Multichar_Symbols
 @R.number.Plmi@
 @R.person.1@
 @R.person.2@
+@R.person.2imp@
+
 @R.person.3@
 @P.prefix.wa-ya@
 @R.prefix.wa-ya@
@@ -14,6 +16,10 @@ Multichar_Symbols
 @U.infix.wa-ya-poly@
 @R.mood.Pot@
 @D.mood.Pot@
+@R.mood.immimp@
+@D.mood.immimp@
+@R.mood.immimpdel@
+@D.mood.immimpdel@
 @R.senttype.Dec@
 @D.senttype.Dec@
 
@@ -89,6 +95,11 @@ LEXICON Subject
 @R.number.Pl@@R.person.2@+2Pl:@R.number.Pl@@R.person.2@ EndTags ;
 @R.number.Pl@@R.person.3@+3Pl:@R.number.Pl@@R.person.3@ EndTags ;
 
+@R.number.Sg@@R.person.2imp@+2Sg+Imm+Imp:@R.number.Sg@@R.person.2imp@ EndTags ;
+@R.number.Pl@@R.person.2imp@+2Pl+Imm+Imp:@R.number.Pl@@R.person.2imp@ EndTags ;
+
+
+
 @R.number.Plmi@@R.person.1@+1Pl:@R.number.Plmi@@R.person.1@ EndTags ;
 @R.number.Plmi@@R.person.2@+2Pl:@R.number.Plmi@@R.person.2@ EndTags ;
 @R.number.Plmi@@R.person.3@+3Pl:@R.number.Plmi@@R.person.3@ EndTags ;
@@ -136,3 +147,5 @@ LEXICON Polypersonal-Portmanteaus
 LEXICON EndTags
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;
 @R.senttype.Dec@+Dec:@R.senttype.Dec@ # ;
+@R.mood.immimp@:@R.mood.immimp@ # ;
+@R.mood.immimpdel@+Del:@R.mood.immimpdel@ # ;

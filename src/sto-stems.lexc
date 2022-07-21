@@ -170,8 +170,8 @@ LEXICON Verbs-EndLex
 # ;
 !@P.mood.Pot@:@P.mood.Pot@%>%>kta # ;
 @D.person.2imp@@D.mood.immimp@:@D.person.2imp@@D.mood.immimp@ Non-imp-End ;
-@R.person.2imp@@P.mood.immimp@:@R.person.2imp@@P.mood.immimp@%>%>0 # ;
-@R.person.2imp@@P.mood.immimpdel@:@R.person.2imp@@P.mood.immimpdel@%>%>cun # ;
+@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimp@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimp@%>%>0 # ;
+@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@%>%>cun # ;
 
 LEXICON Non-imp-End
 Senttype ;

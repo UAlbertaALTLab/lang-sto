@@ -82,6 +82,9 @@ Multichar_Symbols
 @R.poly.3Pl3PlO@
 
 @R.aspect.prosp@
+@D.aspect.prosp@
+@R.aspect.null@ 
+@D.aspect@
 
 LEXICON Root
 Subject ;
@@ -147,7 +150,7 @@ LEXICON Polypersonal-Portmanteaus
 
 LEXICON Aspect
 Aspect2 ;
-EndTags ;
+@D.aspect@ EndTags ;
 
 LEXICON Aspect2
 @R.aspect.prosp@+Prosp:@R.aspect.prosp@ EndTags ;

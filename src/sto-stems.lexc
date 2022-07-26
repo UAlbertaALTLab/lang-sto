@@ -102,6 +102,7 @@ c2
 ! Declarative
 @P.senttype.Dec@
 @P.aspect.prosp@
+@P.aspect.null@
 
 %<%< ! Prefix/Infix-left-edge marker
 %>%> ! Suffix/Infix-right-edge marker
@@ -181,7 +182,7 @@ LEXICON Verbs-EndLex
 @D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@%>%>cun # ;
 
 LEXICON Non-imp-End
-! @U.aspect.prosp@:@U.aspect.prosp@%>%>?aa Senttype ;
+@P.aspect.prosp@:@P.aspect.prosp@%>%>?aa Senttype ;
 Senttype ; 
 
 LEXICON Senttype

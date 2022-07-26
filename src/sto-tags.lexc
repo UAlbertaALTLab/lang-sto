@@ -6,7 +6,7 @@ Multichar_Symbols
 @R.person.1@
 @R.person.2@
 @R.person.2imp@
-
+@R.mood.cond@
 @R.person.3@
 @P.prefix.wa-ya@
 @R.prefix.wa-ya@
@@ -157,3 +157,4 @@ LEXICON EndTags
 @R.senttype.Dec@+Dec:@R.senttype.Dec@ # ;
 @R.mood.immimp@:@R.mood.immimp@ # ;
 @R.mood.immimpdel@+Del:@R.mood.immimpdel@ # ;
+@R.mood.cond@+Cond:@R.mood.cond@ #;

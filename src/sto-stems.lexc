@@ -36,6 +36,8 @@ Multichar_Symbols
 @R.poly.2Sg1PlO@
 @R.poly.2Sg3PlO@
 
+@U.aspect.prosp@
+
 @U.poly.1Sg2SgO@
 @U.poly.1Sg3SgO@
 @U.poly.1Sg2PlO@
@@ -88,7 +90,9 @@ Multichar_Symbols
 @D.person.2@
 @D.person.3@
 @D.prefix.wa-ya@
+@D.aspect.prosp@
 y2
+i2
 %$
 
 ! Future/Potential
@@ -148,6 +152,7 @@ yagda:0_y2agda      VerbPersonSuffixesMi ; ! for S to drink O
 ! Bipartite Stems
 !iyódąǧa:i_odąǧa VerbPersonSuffixes ; ! for S to sit down
 ishdima:0_ishdima      VerbPersonSuffixesMi ; ! for S to be asleep
+ca:0_i2ca      VerbPersonSuffixes ; ! progressive aux
 
 LEXICON poly-wa-ya
 uge:u_ge VerbPersonSuffixes ; ! for S to help O
@@ -174,8 +179,8 @@ LEXICON Verbs-EndLex
 @D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@%>%>cun # ;
 
 LEXICON Non-imp-End
-Senttype ;
-@P.aspect.prosp@:@P.aspect.prosp@%>%>?aa Senttype ;
+! @U.aspect.prosp@:@U.aspect.prosp@%>%>?aa Senttype ;
+Senttype ; 
 
 LEXICON Senttype
 @P.senttype.Dec@:@P.senttype.Dec@%>%>d # ;

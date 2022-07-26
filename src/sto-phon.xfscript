@@ -16,6 +16,11 @@ define awa2au [ w -> u || a _ a ] ;
 
 define ua2a [ a -> 0 || w:u _ ] ;
 
+define i2i [ i2 -> i || [ m | n ] _ c ] ;
+
+define i2del [ i2 -> 0 || .#. [ 0 ] _ c ] ;
+
+
 define aya2aa [ y -> 0 || a _ a ] ;
 
 !define glottalStopInsertion [ [..] -> %' || Vowel _ "<<" Vowel ] ;
@@ -47,4 +52,6 @@ Ablaut
 .o. doldel
 .o. ydel
 .o. y2y
+.o. i2del
+.o. i2i
 ] ;

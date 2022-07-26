@@ -27,7 +27,7 @@ define aya2aa [ y -> 0 || a _ a ] ;
 
 define boundaryDeletion [ [ "<<" | ">>" ] -> 0 ] ;
 
-define Ablaut [ a -> į || _ ">>" k t a .#. ] ;
+define Ablaut [ e -> i || _ ">>" c2 ] ;
 define Consdel [ y2 -> 0 || Consonant _ ] ;
 define y2y [ y2 -> y || _ ] ;
 define y2g [ y2 -> g || _ "$" ] ;
@@ -35,6 +35,7 @@ define doltoi [ "$" -> i || y2:g _ ] ;
 define yins [ [..] -> y || g "$":i _ o] ;
 define doldel [ "$" -> 0 ] ;
 define ydel [ y -> 0 || g _ ] ;
+define c2c [c2 -> c || _ ] ;
 
 ! Final composition of the rules
 
@@ -54,4 +55,5 @@ Ablaut
 .o. y2y
 .o. i2del
 .o. i2i
+.o. c2c
 ] ;

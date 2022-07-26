@@ -80,7 +80,8 @@ Multichar_Symbols
 @R.person.1@
 @R.person.2@
 @R.person.3@
-
+@R.mood.cond@
+@P.mood.cond@
 
 @D.number.Sg@
 !@D.number.Du@
@@ -93,6 +94,7 @@ Multichar_Symbols
 @D.aspect.prosp@
 y2
 i2
+c2
 %$
 
 ! Future/Potential
@@ -184,3 +186,4 @@ Senttype ;
 
 LEXICON Senttype
 @P.senttype.Dec@:@P.senttype.Dec@%>%>d # ;
+@P.mood.cond@:@P.mood.cond@%>%>c2ash # ;

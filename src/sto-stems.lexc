@@ -20,6 +20,7 @@ Multichar_Symbols
 @R.person.2imp@
 @D.mood.immimp@
 @D.person.2imp@
+@P.mood.hypoth@
 ! Person/number flags
 @U.number.Sg@
 !@U.number.Du@
@@ -72,7 +73,7 @@ Multichar_Symbols
 @P.person.3@
 
 @P.prefix.wa-ya@
-
+@P.senttype.Interr@
 @R.number.Sg@
 !@R.number.Du@
 @R.number.Pl@
@@ -92,6 +93,11 @@ Multichar_Symbols
 @D.person.3@
 @D.prefix.wa-ya@
 @D.aspect.prosp@
+@P.aspect.simpfut@
+@P.aspect.dubit@
+@P.mood.Irr@
+@P.aspect.must@
+@P.aspect.poss@
 y2
 i2
 c2
@@ -103,6 +109,8 @@ c2
 @P.senttype.Dec@
 @P.aspect.prosp@
 @P.aspect.null@
+@P.aspect.app@
+@P.aspect.poss2@
 
 %<%< ! Prefix/Infix-left-edge marker
 %>%> ! Suffix/Infix-right-edge marker
@@ -183,8 +191,24 @@ LEXICON Verbs-EndLex
 
 LEXICON Non-imp-End
 @P.aspect.prosp@:@P.aspect.prosp@%>%>?aa Senttype ;
+@P.aspect.prosp@:@P.aspect.prosp@%>%>?axde Senttype ;
+@P.aspect.prosp@:@P.aspect.prosp@%>%>?aaraxde Senttype ;
+
+@P.aspect.simpfut@:@P.aspect.simpfut@%>%>ca Senttype ;
+@P.aspect.dubit@:@P.aspect.dubit@%>%>c2ahabc'a Senttype ;
+@P.aspect.must@:@P.aspect.must@%>%>cazhina Senttype ;
+@P.aspect.must@:@P.aspect.must@%>%>cizhina Senttype ;
+@P.aspect.app@:@P.aspect.app@%>%>ce Senttype ;
+@P.aspect.poss@:@P.aspect.poss@%>%>cice Senttype ;
+
 Senttype ; 
 
 LEXICON Senttype
 @P.senttype.Dec@:@P.senttype.Dec@%>%>d # ;
+@P.senttype.Interr@:@P.senttype.Interr@%>%>0 # ;
+
 @P.mood.cond@:@P.mood.cond@%>%>c2ash # ;
+@P.mood.hypoth@:@P.mood.hypoth@%>%>c2aash # ;
+@P.mood.Irr@:@P.mood.Irr@%>%>c2ashdahwan # ;
+@P.mood.Irr@:@P.mood.Irr@%>%>c2ashde # ;
+@P.aspect.poss2@:@P.aspect.poss2@%>%>cQin # ;

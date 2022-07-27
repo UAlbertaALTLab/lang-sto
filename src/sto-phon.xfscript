@@ -27,7 +27,8 @@ define aya2aa [ y -> 0 || a _ a ] ;
 
 define boundaryDeletion [ [ "<<" | ">>" ] -> 0 ] ;
 
-define Ablaut [ e -> i || _ ">>" c2 ] ;
+define eiAblaut [ e -> i || _ Bx c2 ] ;
+define aeAblaut [ a -> e || _ Bx c2 ] ;
 define Consdel [ y2 -> 0 || Consonant _ ] ;
 define y2y [ y2 -> y || _ ] ;
 define y2g [ y2 -> g || _ "$" ] ;
@@ -40,7 +41,8 @@ define c2c [c2 -> c || _ ] ;
 ! Final composition of the rules
 
 regex [
-Ablaut
+eiAblaut
+.o. aeAblaut
 .o. boundaryDeletion
 .o. awa2au
 .o. aya2aa

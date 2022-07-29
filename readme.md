@@ -3,6 +3,9 @@ This is the preliminary repo for the Nakoda FST. This project is developed by <a
 
 Eventually this repo will be migtrated into the Giellatekno Infrastructure. **THIS IS CURRENTLY THE ACTIVE DEVELOPMENT REPO**.
 
+# Known issues
+For some reason, words with take an prefix for 1Pl are not generating or analyzing. Other forms are fine. 
+
 # Philosophy
 This model considers Nakoda as an infixing language. Stems have special characters that are replaced with infixes. This is controled with flag diacritics.
 

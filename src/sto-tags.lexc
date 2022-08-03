@@ -18,8 +18,8 @@ Multichar_Symbols
 @D.mood.Pot@
 @R.mood.immimp@
 @D.mood.immimp@
-@R.mood.immimpdel@
-@D.mood.immimpdel@
+@R.mood.impdel@
+@D.mood.impdel@
 @R.senttype.Dec@
 @D.senttype.Dec@
 @R.mood.dog@
@@ -122,6 +122,7 @@ LEXICON Subject
 
 
 
+
 @R.number.Plmi@@R.person.1@+1Pl:@R.number.Plmi@@R.person.1@ Aspect ;
 @R.number.Plmi@@R.person.2@+2Pl:@R.number.Plmi@@R.person.2@ Aspect ;
 @R.number.Plmi@@R.person.3@+3Pl:@R.number.Plmi@@R.person.3@ Aspect ;
@@ -184,8 +185,8 @@ LEXICON Aspect2
 LEXICON EndTags
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;
 @R.senttype.Dec@+Dec:@R.senttype.Dec@ # ;
-@R.mood.immimp@:@R.mood.immimp@ # ;
-@R.mood.immimpdel@+Del:@R.mood.immimpdel@ # ;
+@R.mood.immimp@+Imm:@R.mood.immimp@ # ;
+@R.mood.impdel@+Imp+Del:@R.mood.impdel@ # ;
 @R.mood.cond@+Cond:@R.mood.cond@ # ;
 @R.mood.hypoth@+Hypoth:@R.mood.hypoth@ # ;
 @R.senttype.Interr@+ContentInterr:@R.senttype.Interr@ # ;

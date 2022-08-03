@@ -3,7 +3,6 @@ Multichar_Symbols
 @P.infix.wa-ya@
 @P.infix.wa-ya2@
 @P.infix.m-n@
-@P.prefix.wa-ya@
 @R.prefix.m-n@
 @P.prefix.m-n@
 @P.infix.m-n2@
@@ -98,6 +97,13 @@ Multichar_Symbols
 @P.mood.Irr@
 @P.aspect.must@
 @P.aspect.poss@
+@P.mood.when@
+@P.aspect.fut@
+@P.mood.dog@
+@P.mood.cert@
+a2
+n2
+n3
 y2
 i2
 c2
@@ -111,6 +117,11 @@ c2
 @P.aspect.null@
 @P.aspect.app@
 @P.aspect.poss2@
+@P.mood.pst@
+@P.mood.polar@
+@P.mood.polarmale@
+@P.aspect.cf@
+@P.aspect.anticip@
 
 %<%< ! Prefix/Infix-left-edge marker
 %>%> ! Suffix/Infix-right-edge marker
@@ -187,7 +198,7 @@ LEXICON Verbs-EndLex
 !@P.mood.Pot@:@P.mood.Pot@%>%>kta # ;
 @D.person.2imp@@D.mood.immimp@:@D.person.2imp@@D.mood.immimp@ Non-imp-End ;
 @D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimp@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimp@%>%>0 # ;
-@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@%>%>cun # ;
+!@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimpdel@%>%>cun # ;
 
 LEXICON Non-imp-End
 @P.aspect.prosp@:@P.aspect.prosp@%>%>?aa Senttype ;
@@ -200,6 +211,9 @@ LEXICON Non-imp-End
 @P.aspect.must@:@P.aspect.must@%>%>cizhina Senttype ;
 @P.aspect.app@:@P.aspect.app@%>%>ce Senttype ;
 @P.aspect.poss@:@P.aspect.poss@%>%>cice Senttype ;
+@P.aspect.fut@:@P.aspect.fut@%>%>da2 Senttype ;
+@P.aspect.cf@:@P.aspect.cf@%>%>daka Senttype ;
+@P.aspect.anticip@:@P.aspect.anticip@%>%>dashga Senttype ;
 
 Senttype ; 
 
@@ -211,4 +225,10 @@ LEXICON Senttype
 @P.mood.hypoth@:@P.mood.hypoth@%>%>c2aash # ;
 @P.mood.Irr@:@P.mood.Irr@%>%>c2ashdahwan # ;
 @P.mood.Irr@:@P.mood.Irr@%>%>c2ashde # ;
-@P.aspect.poss2@:@P.aspect.poss2@%>%>cQin # ;
+@P.aspect.poss2@:@P.aspect.poss2@%>%>cin # ;
+@P.mood.pst@:@P.mood.pst@%>%>n3 # ;
+@P.mood.when@:@P.mood.when@%>%>cohâ # ;
+@P.mood.polar@:@P.mood.polar@%>%>n2i # ;
+@P.mood.polarmale@:@P.mood.polarmale@%>%>n2u # ;
+@P.mood.dog@:@P.mood.dog@%>%>dog # ;
+@P.mood.cert@:@P.mood.cert@%>%>dowan # ;

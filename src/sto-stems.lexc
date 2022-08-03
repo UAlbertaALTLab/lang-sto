@@ -109,9 +109,7 @@ i2
 c2
 %$
 
-! Future/Potential
 @P.mood.Pot@
-! Declarative
 @P.senttype.Dec@
 @P.aspect.prosp@
 @P.aspect.null@
@@ -122,6 +120,7 @@ c2
 @P.mood.polarmale@
 @P.aspect.cf@
 @P.aspect.anticip@
+@P.mood.prohib@
 
 %<%< ! Prefix/Infix-left-edge marker
 %>%> ! Suffix/Infix-right-edge marker
@@ -200,6 +199,10 @@ LEXICON Verbs-EndLex
 @D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimp@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimp@%>%>0 # ;
 @D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.mood.impdel@:@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.mood.impdel@%>%>cun # ;
 @D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.mood.impdel@:@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.mood.impdel@%>%>cun # ;
+
+@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.mood.prohib@:@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.mood.prohib@%>%>g # ;
+@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.mood.prohib@:@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.mood.prohib@%>%>g # ;
+
 
 LEXICON Non-imp-End
 @P.aspect.prosp@:@P.aspect.prosp@%>%>?aa Senttype ;

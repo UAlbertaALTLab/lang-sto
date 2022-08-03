@@ -29,6 +29,10 @@ define boundaryDeletion [ [ "<<" | ">>" ] -> 0 ] ;
 
 define eiAblaut [ e -> i || _ Bx c2 ] ;
 define aeAblaut [ a -> e || _ Bx c2 ] ;
+define adel [ a2 -> 0 || _ n2] ;
+define n2n [ n2 -> n ] ;
+define n3ablaut [ a2 -> e || _ n3 ] ;
+define n32n [ n3 -> n ] ;
 define Consdel [ y2 -> 0 || Consonant _ ] ;
 define y2y [ y2 -> y || _ ] ;
 define y2g [ y2 -> g || _ "$" ] ;
@@ -37,16 +41,20 @@ define yins [ [..] -> y || g "$":i _ o] ;
 define doldel [ "$" -> 0 ] ;
 define ydel [ y -> 0 || g _ ] ;
 define c2c [c2 -> c || _ ] ;
+define a2a [a2 -> a || _ ] ;
 
 ! Final composition of the rules
 
 regex [
 eiAblaut
-.o. aeAblaut
 .o. boundaryDeletion
+.o. adel
+.o. aeAblaut
 .o. awa2au
 .o. aya2aa
 .o. ua2a
+.o. n2n
+.o. n3ablaut
 .o. Gdel
 .o. Consdel
 .o. y2g
@@ -58,4 +66,6 @@ eiAblaut
 .o. i2del
 .o. i2i
 .o. c2c
+.o. n32n
+.o. a2a
 ] ;

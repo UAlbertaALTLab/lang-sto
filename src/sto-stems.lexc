@@ -20,6 +20,8 @@ Multichar_Symbols
 @D.mood.immimp@
 @D.person.2imp@
 @P.mood.hypoth@
+@P.mood.conc@
+@P.mood.rem@
 ! Person/number flags
 @U.number.Sg@
 !@U.number.Du@
@@ -101,12 +103,15 @@ Multichar_Symbols
 @P.aspect.fut@
 @P.mood.dog@
 @P.mood.cert@
+@P.aspect.prtnd@
+@P.aspect.intent@
 a2
 n2
 n3
 y2
 i2
 c2
+g2
 %$
 
 @P.mood.Pot@
@@ -208,8 +213,8 @@ LEXICON Non-imp-End
 @P.aspect.prosp@:@P.aspect.prosp@%>%>?aa Senttype ;
 @P.aspect.prosp@:@P.aspect.prosp@%>%>?axde Senttype ;
 @P.aspect.prosp@:@P.aspect.prosp@%>%>?aaraxde Senttype ;
-
 @P.aspect.simpfut@:@P.aspect.simpfut@%>%>ca Senttype ;
+@P.aspect.intent@:@P.aspect.intent@%>%>ha Senttype ;
 @P.aspect.dubit@:@P.aspect.dubit@%>%>c2ahabc'a Senttype ;
 @P.aspect.must@:@P.aspect.must@%>%>cazhina Senttype ;
 @P.aspect.must@:@P.aspect.must@%>%>cizhina Senttype ;
@@ -218,6 +223,7 @@ LEXICON Non-imp-End
 @P.aspect.fut@:@P.aspect.fut@%>%>da2 Senttype ;
 @P.aspect.cf@:@P.aspect.cf@%>%>daka Senttype ;
 @P.aspect.anticip@:@P.aspect.anticip@%>%>dashga Senttype ;
+@P.aspect.prtnd@:@P.aspect.prtnd@%>%>g2uza Senttype ;
 
 Senttype ; 
 
@@ -236,3 +242,5 @@ LEXICON Senttype
 @P.mood.polarmale@:@P.mood.polarmale@%>%>n2u # ;
 @P.mood.dog@:@P.mood.dog@%>%>dog # ;
 @P.mood.cert@:@P.mood.cert@%>%>dowan # ;
+@P.mood.conc@:@P.mood.conc@%>%>gash # ;
+@P.mood.rem@:@P.mood.rem@%>%>ge # ;

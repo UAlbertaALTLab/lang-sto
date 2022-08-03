@@ -23,6 +23,7 @@ Multichar_Symbols
 @R.senttype.Dec@
 @D.senttype.Dec@
 @R.mood.dog@
+@R.mood.conc@
 
 @R.poly.1Sg2SgO@
 @R.poly.1Sg3SgO@
@@ -104,6 +105,9 @@ Multichar_Symbols
 @R.aspect.anticip@
 @R.mood.cert@
 @R.mood.prohib@
+@R.mood.rem@
+@R.aspect.prtnd@
+@R.aspect.intent@
 
 LEXICON Root
 Subject ;
@@ -175,6 +179,7 @@ Aspect2 ;
 LEXICON Aspect2
 @R.aspect.prosp@+Prosp:@R.aspect.prosp@ EndTags ;
 @R.aspect.simpfut@+Simp+Fut:@R.aspect.simpfut@ EndTags ;
+@R.aspect.intent@+Intent:@R.aspect.intent@ EndTags ;
 @R.aspect.dubit@+Dubit:@R.aspect.dubit@ EndTags ;
 @R.aspect.must@+Must:@R.aspect.must@ EndTags ;
 @R.aspect.app@+App:@R.aspect.app@ EndTags ;
@@ -182,6 +187,8 @@ LEXICON Aspect2
 @R.aspect.fut@+Fut:@R.aspect.fut@ EndTags ;
 @R.aspect.cf@+CountFact:@R.aspect.cf@ EndTags ;
 @R.aspect.anticip@+Anticip:@R.aspect.anticip@ EndTags ;
+@R.aspect.prtnd@+Prtnd:@R.aspect.prtnd@ EndTags ;
+
 
 LEXICON EndTags
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;
@@ -200,4 +207,6 @@ LEXICON EndTags
 @R.mood.dog@+Desid:@R.mood.dog@ # ;
 @R.mood.cert@+Cert:@R.mood.cert@ # ;
 @R.mood.prohib@+Prohb:@R.mood.prohib@ # ;
+@R.mood.conc@+Concess:@R.mood.conc@ # ;
+@R.mood.rem@+Rem:@R.mood.rem@ # ;
 

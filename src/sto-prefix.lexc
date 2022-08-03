@@ -34,7 +34,7 @@ LEXICON m-n-Class
 @R.prefix.m-n@ m-n-pre ;
 
 LEXICON wa-ya-pre
-@U.person.Sg@@U.person.1@:@U.number.Sg@@U.person.1@0 # ;
+@U.number.Sg@@U.person.1@:@U.number.Sg@@U.person.1@0 # ;
 @U.number.Plmi@@U.person.1@:@U.number.Plmi@@U.person.1@i # ;
 @U.person.2@:@U.person.2@0 # ;
 @U.person.3@:@U.person.3@0 # ;

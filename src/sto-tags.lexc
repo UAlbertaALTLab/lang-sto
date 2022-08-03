@@ -103,6 +103,7 @@ Multichar_Symbols
 @R.aspect.cf@
 @R.aspect.anticip@
 @R.mood.cert@
+@R.mood.prohib@
 
 LEXICON Root
 Subject ;
@@ -198,4 +199,5 @@ LEXICON EndTags
 @R.mood.polarmale@+Pol+Male:@R.mood.polarmale@ # ;
 @R.mood.dog@+Desid:@R.mood.dog@ # ;
 @R.mood.cert@+Cert:@R.mood.cert@ # ;
+@R.mood.prohib@+Prohb:@R.mood.prohib@ # ;
 

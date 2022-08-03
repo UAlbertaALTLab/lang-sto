@@ -22,6 +22,7 @@ Multichar_Symbols
 @D.mood.immimpdel@
 @R.senttype.Dec@
 @D.senttype.Dec@
+@R.mood.dog@
 
 @R.poly.1Sg2SgO@
 @R.poly.1Sg3SgO@
@@ -93,7 +94,15 @@ Multichar_Symbols
 @R.aspect.must@
 @R.aspect.app@
 @R.aspect.poss@
-@R.aspect.poss2@
+@R.mood.poss2@
+@R.mood.when@
+@R.aspect.fut@
+@R.mood.pst@
+@R.mood.polarmale@
+@R.mood.polar@
+@R.aspect.cf@
+@R.aspect.anticip@
+@R.mood.cert@
 
 LEXICON Root
 Subject ;
@@ -168,7 +177,9 @@ LEXICON Aspect2
 @R.aspect.must@+Must:@R.aspect.must@ EndTags ;
 @R.aspect.app@+App:@R.aspect.app@ EndTags ;
 @R.aspect.poss@+Poss:@R.aspect.poss@ EndTags ;
-
+@R.aspect.fut@+Fut:@R.aspect.fut@ EndTags ;
+@R.aspect.cf@+CountFact:@R.aspect.cf@ EndTags ;
+@R.aspect.anticip@+Anticip:@R.aspect.anticip@ EndTags ;
 
 LEXICON EndTags
 @R.mood.Pot@+Pot:@R.mood.Pot@ # ;
@@ -179,4 +190,11 @@ LEXICON EndTags
 @R.mood.hypoth@+Hypoth:@R.mood.hypoth@ # ;
 @R.senttype.Interr@+ContentInterr:@R.senttype.Interr@ # ;
 @R.mood.Irr@+Irr:@R.mood.Irr@ # ;
-@R.aspect.poss2@+Poss2:@R.aspect.poss2@ # ;
+@R.mood.poss2@+Poss2:@R.mood.poss2@ # ;
+@R.mood.when@+when:@R.mood.when@ # ;
+@R.mood.pst@+Pst:@R.mood.pst@ # ;
+@R.mood.polar@+Pol:@R.mood.polar@ # ;
+@R.mood.polarmale@+Pol+Male:@R.mood.polarmale@ # ;
+@R.mood.dog@+Desid:@R.mood.dog@ # ;
+@R.mood.cert@+Cert:@R.mood.cert@ # ;
+

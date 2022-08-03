@@ -28,7 +28,7 @@ define aya2aa [ y -> 0 || a _ a ] ;
 define boundaryDeletion [ [ "<<" | ">>" ] -> 0 ] ;
 
 define eiAblaut [ e -> i || _ Bx c2 ] ;
-define aeAblaut [ a -> e || _ Bx c2 ] ;
+define aeAblaut [ a -> e || _ Bx [ c2 | g2 ] ] ;
 define adel [ a2 -> 0 || _ n2] ;
 define n2n [ n2 -> n ] ;
 define n3ablaut [ a2 -> e || _ n3 ] ;
@@ -42,12 +42,12 @@ define doldel [ "$" -> 0 ] ;
 define ydel [ y -> 0 || g _ ] ;
 define c2c [c2 -> c || _ ] ;
 define a2a [a2 -> a || _ ] ;
+define g2g [g2 -> g || _ ] ;
 
 ! Final composition of the rules
 
 regex [
 eiAblaut
-.o. boundaryDeletion
 .o. adel
 .o. aeAblaut
 .o. awa2au
@@ -68,4 +68,6 @@ eiAblaut
 .o. c2c
 .o. n32n
 .o. a2a
+.o. g2g
+.o. boundaryDeletion
 ] ;

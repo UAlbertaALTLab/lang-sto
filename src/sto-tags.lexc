@@ -76,8 +76,8 @@ Multichar_Symbols
 @R.person.3@
 
 ! TAM1
+@D.tam1@
 @D.tam1.prosp@
-@D.aspect@
 
 @R.tam1.anticip@
 @R.tam1.app@
@@ -93,6 +93,7 @@ Multichar_Symbols
 @R.tam1.simpfut@
 
 ! TAM2
+@D.tam2@
 @D.tam2.dec@
 @D.tam2.immimp@
 @D.tam2.impdel@
@@ -116,6 +117,10 @@ Multichar_Symbols
 @R.tam2.pst@
 @R.tam2.rem@
 @R.tam2.when@
+
+! Polar/Negtive tags
+@D.posneg.neg@
+@R.posneg.neg@
 
 LEXICON Root
 Subject ;
@@ -182,21 +187,26 @@ LEXICON Polypersonal-Portmanteaus
 
 LEXICON Aspect
 Aspect2 ;
-@D.aspect@ EndTags ;
+@D.tam1@ Negative ;
 
 LEXICON Aspect2
-@R.tam1.prosp@+Prosp:@R.tam1.prosp@ EndTags ;
-@R.tam1.simpfut@+Simp+Fut:@R.tam1.simpfut@ EndTags ;
-@R.tam1.intent@+Intent:@R.tam1.intent@ EndTags ;
-@R.tam1.dubit@+Dubit:@R.tam1.dubit@ EndTags ;
-@R.tam1.must@+Must:@R.tam1.must@ EndTags ;
-@R.tam1.app@+App:@R.tam1.app@ EndTags ;
-@R.tam1.poss@+Poss:@R.tam1.poss@ EndTags ;
-@R.tam1.fut@+Fut:@R.tam1.fut@ EndTags ;
-@R.tam1.cf@+CountFact:@R.tam1.cf@ EndTags ;
-@R.tam1.anticip@+Anticip:@R.tam1.anticip@ EndTags ;
-@R.tam1.prtnd@+Prtnd:@R.tam1.prtnd@ EndTags ;
+@R.tam1.prosp@+Prosp:@R.tam1.prosp@ Negative ;
+@R.tam1.simpfut@+Simp+Fut:@R.tam1.simpfut@ Negative ;
+@R.tam1.intent@+Intent:@R.tam1.intent@ Negative ;
+@R.tam1.dubit@+Dubit:@R.tam1.dubit@ Negative ;
+@R.tam1.must@+Must:@R.tam1.must@ Negative ;
+@R.tam1.app@+App:@R.tam1.app@ Negative ;
+@R.tam1.poss@+Poss:@R.tam1.poss@ Negative ;
+@R.tam1.fut@+Fut:@R.tam1.fut@ Negative ;
+@R.tam1.cf@+CountFact:@R.tam1.cf@ Negative ;
+@R.tam1.anticip@+Anticip:@R.tam1.anticip@ Negative ;
+@R.tam1.prtnd@+Prtnd:@R.tam1.prtnd@ Negative ;
 
+LEXICON Negative
+@R.posneg.neg@+Neg:@R.posneg.neg@ EndTags ;
+@D.tam2@@R.posneg.neg@+Neg:@D.tam2@@R.posneg.neg@ # ;
+
+@D.posneg.neg@ EndTags ;
 
 LEXICON EndTags
 @R.tam2.pot@+Pot:@R.tam2.pot@ # ;

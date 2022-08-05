@@ -1,136 +1,147 @@
 Multichar_Symbols
-! Inflectional classes
-@P.infix.wa-ya@
-@P.infix.wa-ya2@
-@P.infix.m-n@
-@R.prefix.m-n@
+! prefix
+@D.prefix.wa-ya@
+
 @P.prefix.m-n@
-@P.infix.m-n2@
+@P.prefix.wa-ya@
+
+@R.prefix.m-n@
 @R.prefix.wa-ya@
+
 @U.prefix.wa-ya@
+
+
+! infix
+@P.infix.m-n2@
+@P.infix.m-n@
 @P.infix.wa-ya-poly@ 
-@R.infix.wa-ya-poly@ 
-@U.infix.wa-ya-poly@ 
+@P.infix.wa-ya2@
+@P.infix.wa-ya@
+
 @D.infix.wa-ya-poly@
-@P.mood.immimp@
-@P.mood.impdel@
-@U.person.2imp@
-@P.person.2imp@
-@R.person.2imp@
-@D.mood.immimp@
-@D.person.2imp@
-@P.mood.hypoth@
-@P.mood.conc@
-@P.mood.rem@
-! Person/number flags
-@U.number.Sg@
-!@U.number.Du@
+
+@R.infix.wa-ya-poly@ 
+
+@U.infix.wa-ya-poly@ 
+
+
+@D.aspect.prosp@
+
+! number flags
+@D.number.Pl@
+@D.number.Plmi@
+@D.number.Sg@
+
+@P.number.Pl@
+@P.number.Plmi@
+@P.number.Sg@
+
+@R.number.Pl@
+@R.number.Plmi@
+@R.number.Sg@
+
 @U.number.Pl@
 @U.number.Plmi@
+@U.number.Sg@
 
-@R.poly.1Sg2SgO@
-@R.poly.1Sg3SgO@
-@R.poly.1Sg2PlO@
-@R.poly.1Sg3PlO@
+! person flags
+@D.person.1@
+@D.person.2@
+@D.person.2imp@
+@D.person.3@
 
-@R.poly.2Sg1SgO@
-@R.poly.2Sg3SgO@
-@R.poly.2Sg1PlO@
-@R.poly.2Sg3PlO@
-
-@U.aspect.prosp@
-
-@U.poly.1Sg2SgO@
-@U.poly.1Sg3SgO@
-@U.poly.1Sg2PlO@
-@U.poly.1Sg3PlO@
-
-@U.poly.2Sg1SgO@
-@U.poly.2Sg3SgO@
-@U.poly.2Sg1PlO@
-@U.poly.2Sg3PlO@
-
-@P.poly.1Sg2SgO@
-@P.poly.1Sg3SgO@
-@P.poly.1Sg2PlO@
-@P.poly.1Sg3PlO@
-
-@P.poly.2Sg1SgO@
-@P.poly.2Sg3SgO@
-@P.poly.2Sg1PlO@
-@P.poly.2Sg3PlO@
-
+@P.person.1@
+@P.person.2@
+@P.person.2imp@
+@P.person.3@
 
 @U.person.1@
 @U.person.2@
+@U.person.2imp@
 @U.person.3@
 
-@P.number.Sg@
-!@P.number.Du@
-@P.number.Pl@
-@P.number.Plmi@
-@P.person.1@
-@P.person.2@
-@P.person.3@
+@P.poly.1Sg2PlO@
+@P.poly.1Sg2SgO@
+@P.poly.1Sg3PlO@
+@P.poly.1Sg3SgO@
+@P.poly.2Sg1PlO@
+@P.poly.2Sg1SgO@
+@P.poly.2Sg3PlO@
+@P.poly.2Sg3SgO@
 
-@P.prefix.wa-ya@
-@P.senttype.Interr@
-@R.number.Sg@
-!@R.number.Du@
-@R.number.Pl@
-@R.number.Plmi@
 @R.person.1@
 @R.person.2@
+@R.person.2imp@
 @R.person.3@
-@R.mood.cond@
-@P.mood.cond@
 
-@D.number.Sg@
-!@D.number.Du@
-@D.number.Pl@
-@D.number.Plmi@
-@D.person.1@
-@D.person.2@
-@D.person.3@
-@D.prefix.wa-ya@
-@D.aspect.prosp@
-@P.aspect.simpfut@
+@R.poly.1Sg2PlO@
+@R.poly.1Sg2SgO@
+@R.poly.1Sg3PlO@
+@R.poly.1Sg3SgO@
+@R.poly.2Sg1PlO@
+@R.poly.2Sg1SgO@
+@R.poly.2Sg3PlO@
+@R.poly.2Sg3SgO@
+
+@U.poly.1Sg2PlO@
+@U.poly.1Sg2SgO@
+@U.poly.1Sg3PlO@
+@U.poly.1Sg3SgO@
+@U.poly.2Sg1PlO@
+@U.poly.2Sg1SgO@
+@U.poly.2Sg3PlO@
+@U.poly.2Sg3SgO@
+
+! TAM1
+@P.aspect.anticip@
+@P.aspect.app@
+@P.aspect.cf@
 @P.aspect.dubit@
-@P.mood.Irr@
-@P.aspect.must@
-@P.aspect.poss@
-@P.mood.when@
 @P.aspect.fut@
-@P.mood.dog@
-@P.mood.cert@
-@P.aspect.prtnd@
 @P.aspect.intent@
+@P.aspect.must@
+@P.aspect.null@
+@P.aspect.poss@
+@P.aspect.prosp@
+@P.aspect.prtnd@
+@P.aspect.simpfut@
+
+! TAM2
+@D.tam2.immimp@
+
+@P.tam2.cert@
+@P.tam2.conc@
+@P.tam2.cond@
+@P.tam2.dec@
+@P.tam2.dog@
+@P.tam2.hypoth@
+@P.tam2.immimp@
+@P.tam2.impdel@
+@P.tam2.interr@
+@P.tam2.irr@
+@P.tam2.polar@
+@P.tam2.polarmale@
+@P.tam2.poss2@
+@P.tam2.pot@
+@P.tam2.prohib@
+@P.tam2.pst@
+@P.tam2.rem@
+@P.tam2.when@
+
+! special characters
 a2
+c2
+g2
+i2
 n2
 n3
 y2
-i2
-c2
-g2
-%$
-
-@P.mood.Pot@
-@P.senttype.Dec@
-@P.aspect.prosp@
-@P.aspect.null@
-@P.aspect.app@
-@P.aspect.poss2@
-@P.mood.pst@
-@P.mood.polar@
-@P.mood.polarmale@
-@P.aspect.cf@
-@P.aspect.anticip@
-@P.mood.prohib@
 
 %<%< ! Prefix/Infix-left-edge marker
 %>%> ! Suffix/Infix-right-edge marker
 %_ ! Infix/Prefix insertion marker
 %&
+%$
 
 LEXICON Root
 wa-ya-Verbs ;
@@ -199,14 +210,14 @@ LEXICON VerbPersonSuffixesMi
 
 LEXICON Verbs-EndLex
 # ;
-!@P.mood.Pot@:@P.mood.Pot@%>%>kta # ;
-@D.person.2imp@@D.mood.immimp@:@D.person.2imp@@D.mood.immimp@ Non-imp-End ;
-@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimp@:@D.infix.wa-ya-poly@@R.person.2imp@@P.mood.immimp@%>%>0 # ;
-@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.mood.impdel@:@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.mood.impdel@%>%>cun # ;
-@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.mood.impdel@:@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.mood.impdel@%>%>cun # ;
+!@P.tam2.pot@:@P.tam2.pot@%>%>kta # ;
+@D.person.2imp@@D.tam2.immimp@:@D.person.2imp@@D.tam2.immimp@ Non-imp-End ;
+@D.infix.wa-ya-poly@@R.person.2imp@@P.tam2.immimp@:@D.infix.wa-ya-poly@@R.person.2imp@@P.tam2.immimp@%>%>0 # ;
+@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.tam2.impdel@:@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.tam2.impdel@%>%>cun # ;
+@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.tam2.impdel@:@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.tam2.impdel@%>%>cun # ;
 
-@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.mood.prohib@:@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.mood.prohib@%>%>g # ;
-@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.mood.prohib@:@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.mood.prohib@%>%>g # ;
+@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.tam2.prohib@:@D.infix.wa-ya-poly@@R.number.Sg@@R.person.2@@P.tam2.prohib@%>%>g # ;
+@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.tam2.prohib@:@D.infix.wa-ya-poly@@R.number.Pl@@R.person.2@@P.tam2.prohib@%>%>g # ;
 
 
 LEXICON Non-imp-End
@@ -228,19 +239,19 @@ LEXICON Non-imp-End
 Senttype ; 
 
 LEXICON Senttype
-@P.senttype.Dec@:@P.senttype.Dec@%>%>d # ;
-@P.senttype.Interr@:@P.senttype.Interr@%>%>0 # ;
+@P.tam2.dec@:@P.tam2.dec@%>%>d # ;
+@P.tam2.interr@:@P.tam2.interr@%>%>0 # ;
 
-@P.mood.cond@:@P.mood.cond@%>%>c2ash # ;
-@P.mood.hypoth@:@P.mood.hypoth@%>%>c2aash # ;
-@P.mood.Irr@:@P.mood.Irr@%>%>c2ashdahwan # ;
-@P.mood.Irr@:@P.mood.Irr@%>%>c2ashde # ;
-@P.aspect.poss2@:@P.aspect.poss2@%>%>cin # ;
-@P.mood.pst@:@P.mood.pst@%>%>n3 # ;
-@P.mood.when@:@P.mood.when@%>%>cohâ # ;
-@P.mood.polar@:@P.mood.polar@%>%>n2i # ;
-@P.mood.polarmale@:@P.mood.polarmale@%>%>n2u # ;
-@P.mood.dog@:@P.mood.dog@%>%>dog # ;
-@P.mood.cert@:@P.mood.cert@%>%>dowan # ;
-@P.mood.conc@:@P.mood.conc@%>%>gash # ;
-@P.mood.rem@:@P.mood.rem@%>%>ge # ;
+@P.tam2.cond@:@P.tam2.cond@%>%>c2ash # ;
+@P.tam2.hypoth@:@P.tam2.hypoth@%>%>c2aash # ;
+@P.tam2.irr@:@P.tam2.irr@%>%>c2ashdahwan # ;
+@P.tam2.irr@:@P.tam2.irr@%>%>c2ashde # ;
+@P.tam2.poss2@:@P.tam2.poss2@%>%>cin # ;
+@P.tam2.pst@:@P.tam2.pst@%>%>n3 # ;
+@P.tam2.when@:@P.tam2.when@%>%>cohâ # ;
+@P.tam2.polar@:@P.tam2.polar@%>%>n2i # ;
+@P.tam2.polarmale@:@P.tam2.polarmale@%>%>n2u # ;
+@P.tam2.dog@:@P.tam2.dog@%>%>dog # ;
+@P.tam2.cert@:@P.tam2.cert@%>%>dowan # ;
+@P.tam2.conc@:@P.tam2.conc@%>%>gash # ;
+@P.tam2.rem@:@P.tam2.rem@%>%>ge # ;

@@ -1,113 +1,121 @@
 Multichar_Symbols
-@R.number.Sg@
-!@R.number.Du@
+! prefix
+@D.prefix.wa-ya@
+
+@P.prefix.wa-ya@
+
+@R.prefix.wa-ya@
+
+! infix
+@P.infix.wa-ya-poly@
+
+@R.infix.wa-ya-poly@
+
+@U.infix.wa-ya-poly@
+
+! number flags
 @R.number.Pl@
 @R.number.Plmi@
+@R.number.Sg@
+
+! person flags
+@P.poly.1Sg2PlO@
+@P.poly.1Sg2SgO@
+@P.poly.1Sg3PlO@
+@P.poly.1Sg3SgO@
+@P.poly.2Sg1PlO@
+@P.poly.2Sg1SgO@
+@P.poly.2Sg3PlO@
+@P.poly.2Sg3SgO@
+
+@R.poly.1Pl2PlO@
+@R.poly.1Pl2SgO@
+@R.poly.1Pl3PlO@
+@R.poly.1Pl3SgO@
+@R.poly.1Sg2PlO@
+@R.poly.1Sg2SgO@
+@R.poly.1Sg3PlO@
+@R.poly.1Sg3SgO@
+@R.poly.2Pl1PlO@
+@R.poly.2Pl1SgO@
+@R.poly.2Pl2PlO@
+@R.poly.2Pl2SgO@
+@R.poly.2Pl3PlO@
+@R.poly.2Pl3SgO@
+@R.poly.2Sg1PlO@
+@R.poly.2Sg1SgO@
+@R.poly.2Sg3PlO@
+@R.poly.2Sg3SgO@
+@R.poly.3Pl1PlO@
+@R.poly.3Pl1SgO@
+@R.poly.3Pl2PlO@
+@R.poly.3Pl2SgO@
+@R.poly.3Pl3PlO@
+@R.poly.3Pl3SgO@
+@R.poly.3Sg1PlO@
+@R.poly.3Sg1SgO@
+@R.poly.3Sg2PlO@
+@R.poly.3Sg2SgO@
+@R.poly.3Sg3PlO@
+@R.poly.3Sg3SgO@
+
+@U.poly.1Sg2PlO@
+@U.poly.1Sg2SgO@
+@U.poly.1Sg3PlO@
+@U.poly.1Sg3SgO@
+@U.poly.2Pl1PlO@
+@U.poly.2Pl1SgO@
+@U.poly.2Sg1PlO@
+@U.poly.2Sg1SgO@
+@U.poly.2Sg3PlO@
+@U.poly.2Sg3SgO@
+
 @R.person.1@
 @R.person.2@
 @R.person.2imp@
-@R.mood.cond@
 @R.person.3@
-@P.prefix.wa-ya@
-@R.prefix.wa-ya@
-@D.prefix.wa-ya@
-@P.infix.wa-ya-poly@
-@R.infix.wa-ya-poly@
-@U.infix.wa-ya-poly@
-@R.mood.Pot@
-@D.mood.Pot@
-@R.mood.immimp@
-@D.mood.immimp@
-@R.mood.impdel@
-@D.mood.impdel@
-@R.senttype.Dec@
-@D.senttype.Dec@
-@R.mood.dog@
-@R.mood.conc@
 
-@R.poly.1Sg2SgO@
-@R.poly.1Sg3SgO@
-@R.poly.1Sg2PlO@
-@R.poly.1Sg3PlO@
-
-@R.poly.2Sg1SgO@
-@R.poly.2Sg3SgO@
-@R.poly.2Sg1PlO@
-@R.poly.2Sg3PlO@
-@R.poly.2Pl1SgO@
-@R.poly.2Pl1PlO@
-
-@U.poly.1Sg2SgO@
-@U.poly.1Sg3SgO@
-@U.poly.1Sg2PlO@
-@U.poly.1Sg3PlO@
-
-@U.poly.2Sg1SgO@
-@U.poly.2Sg3SgO@
-@U.poly.2Sg1PlO@
-@U.poly.2Sg3PlO@
-@U.poly.2Pl1SgO@
-@U.poly.2Pl1PlO@
-
-@P.poly.1Sg2SgO@
-@P.poly.1Sg3SgO@
-@P.poly.1Sg2PlO@
-@P.poly.1Sg3PlO@
-
-@P.poly.2Sg1SgO@
-@P.poly.2Sg3SgO@
-@P.poly.2Sg1PlO@
-@P.poly.2Sg3PlO@
-
-@R.poly.3Sg1SgO@
-@R.poly.3Sg2SgO@
-@R.poly.3Sg3SgO@
-@R.poly.3Sg1PlO@
-@R.poly.3Sg2PlO@
-@R.poly.3Sg3PlO@
-
-@R.poly.1Pl2SgO@
-@R.poly.1Pl3SgO@
-@R.poly.1Pl2PlO@
-@R.poly.1Pl3PlO@
-
-@R.poly.2Pl2SgO@
-@R.poly.2Pl3SgO@
-@R.poly.2Pl2PlO@
-@R.poly.2Pl3PlO@
-
-@R.poly.3Pl1SgO@
-@R.poly.3Pl2SgO@
-@R.poly.3Pl3SgO@
-@R.poly.3Pl1PlO@
-@R.poly.3Pl2PlO@
-@R.poly.3Pl3PlO@
-
-@R.aspect.prosp@
-@D.aspect.prosp@
-@R.aspect.null@ 
+! TAM1
+@D.tam1.prosp@
 @D.aspect@
-@R.aspect.simpfut@
-@R.mood.hypoth@
-@R.senttype.Interr@
-@R.aspect.dubit@
-@R.mood.Irr@
-@R.aspect.must@
-@R.aspect.app@
-@R.aspect.poss@
-@R.mood.poss2@
-@R.mood.when@
-@R.aspect.fut@
-@R.mood.pst@
-@R.mood.polarmale@
-@R.mood.polar@
-@R.aspect.cf@
-@R.aspect.anticip@
-@R.mood.cert@
-@R.mood.prohib@
-@R.mood.rem@
-@R.aspect.prtnd@
-@R.aspect.intent@
+
+@R.tam1.anticip@
+@R.tam1.app@
+@R.tam1.cf@
+@R.tam1.dubit@
+@R.tam1.fut@
+@R.tam1.intent@
+@R.tam1.must@
+@R.tam1.null@ 
+@R.tam1.poss@
+@R.tam1.prosp@
+@R.tam1.prtnd@
+@R.tam1.simpfut@
+
+! TAM2
+@D.tam2.dec@
+@D.tam2.immimp@
+@D.tam2.impdel@
+@D.tam2.pot@
+
+@R.tam2.interr@
+@R.tam2.cert@
+@R.tam2.conc@
+@R.tam2.cond@
+@R.tam2.dec@
+@R.tam2.dog@
+@R.tam2.hypoth@
+@R.tam2.immimp@
+@R.tam2.impdel@
+@R.tam2.irr@
+@R.tam2.polar@
+@R.tam2.polarmale@
+@R.tam2.poss2@
+@R.tam2.pot@
+@R.tam2.prohib@
+@R.tam2.pst@
+@R.tam2.rem@
+@R.tam2.when@
 
 LEXICON Root
 Subject ;
@@ -177,36 +185,36 @@ Aspect2 ;
 @D.aspect@ EndTags ;
 
 LEXICON Aspect2
-@R.aspect.prosp@+Prosp:@R.aspect.prosp@ EndTags ;
-@R.aspect.simpfut@+Simp+Fut:@R.aspect.simpfut@ EndTags ;
-@R.aspect.intent@+Intent:@R.aspect.intent@ EndTags ;
-@R.aspect.dubit@+Dubit:@R.aspect.dubit@ EndTags ;
-@R.aspect.must@+Must:@R.aspect.must@ EndTags ;
-@R.aspect.app@+App:@R.aspect.app@ EndTags ;
-@R.aspect.poss@+Poss:@R.aspect.poss@ EndTags ;
-@R.aspect.fut@+Fut:@R.aspect.fut@ EndTags ;
-@R.aspect.cf@+CountFact:@R.aspect.cf@ EndTags ;
-@R.aspect.anticip@+Anticip:@R.aspect.anticip@ EndTags ;
-@R.aspect.prtnd@+Prtnd:@R.aspect.prtnd@ EndTags ;
+@R.tam1.prosp@+Prosp:@R.tam1.prosp@ EndTags ;
+@R.tam1.simpfut@+Simp+Fut:@R.tam1.simpfut@ EndTags ;
+@R.tam1.intent@+Intent:@R.tam1.intent@ EndTags ;
+@R.tam1.dubit@+Dubit:@R.tam1.dubit@ EndTags ;
+@R.tam1.must@+Must:@R.tam1.must@ EndTags ;
+@R.tam1.app@+App:@R.tam1.app@ EndTags ;
+@R.tam1.poss@+Poss:@R.tam1.poss@ EndTags ;
+@R.tam1.fut@+Fut:@R.tam1.fut@ EndTags ;
+@R.tam1.cf@+CountFact:@R.tam1.cf@ EndTags ;
+@R.tam1.anticip@+Anticip:@R.tam1.anticip@ EndTags ;
+@R.tam1.prtnd@+Prtnd:@R.tam1.prtnd@ EndTags ;
 
 
 LEXICON EndTags
-@R.mood.Pot@+Pot:@R.mood.Pot@ # ;
-@R.senttype.Dec@+Dec:@R.senttype.Dec@ # ;
-@R.mood.immimp@+Imm:@R.mood.immimp@ # ;
-@R.mood.impdel@+Imp+Del:@R.mood.impdel@ # ;
-@R.mood.cond@+Cond:@R.mood.cond@ # ;
-@R.mood.hypoth@+Hypoth:@R.mood.hypoth@ # ;
-@R.senttype.Interr@+ContentInterr:@R.senttype.Interr@ # ;
-@R.mood.Irr@+Irr:@R.mood.Irr@ # ;
-@R.mood.poss2@+Poss2:@R.mood.poss2@ # ;
-@R.mood.when@+when:@R.mood.when@ # ;
-@R.mood.pst@+Pst:@R.mood.pst@ # ;
-@R.mood.polar@+Pol:@R.mood.polar@ # ;
-@R.mood.polarmale@+Pol+Male:@R.mood.polarmale@ # ;
-@R.mood.dog@+Desid:@R.mood.dog@ # ;
-@R.mood.cert@+Cert:@R.mood.cert@ # ;
-@R.mood.prohib@+Prohb:@R.mood.prohib@ # ;
-@R.mood.conc@+Concess:@R.mood.conc@ # ;
-@R.mood.rem@+Rem:@R.mood.rem@ # ;
+@R.tam2.pot@+Pot:@R.tam2.pot@ # ;
+@R.tam2.dec@+Dec:@R.tam2.dec@ # ;
+@R.tam2.immimp@+Imm:@R.tam2.immimp@ # ;
+@R.tam2.impdel@+Imp+Del:@R.tam2.impdel@ # ;
+@R.tam2.cond@+Cond:@R.tam2.cond@ # ;
+@R.tam2.hypoth@+Hypoth:@R.tam2.hypoth@ # ;
+@R.tam2.interr@+ContentInterr:@R.tam2.interr@ # ;
+@R.tam2.irr@+Irr:@R.tam2.irr@ # ;
+@R.tam2.poss2@+Poss2:@R.tam2.poss2@ # ;
+@R.tam2.when@+When:@R.tam2.when@ # ;
+@R.tam2.pst@+Pst:@R.tam2.pst@ # ;
+@R.tam2.polar@+Pol:@R.tam2.polar@ # ;
+@R.tam2.polarmale@+Pol+Male:@R.tam2.polarmale@ # ;
+@R.tam2.dog@+Desid:@R.tam2.dog@ # ;
+@R.tam2.cert@+Cert:@R.tam2.cert@ # ;
+@R.tam2.prohib@+Prohb:@R.tam2.prohib@ # ;
+@R.tam2.conc@+Concess:@R.tam2.conc@ # ;
+@R.tam2.rem@+Rem:@R.tam2.rem@ # ;
 

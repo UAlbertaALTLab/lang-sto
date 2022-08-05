@@ -1,26 +1,17 @@
 Multichar_Symbols
-@R.prefix.wa-ya@
-@D.prefix.wa-ya@
+! prefix tags
 @P.prefix.wa-ya@
-@U.prefix.wa-ya@
+@R.prefix.wa-ya@
 @R.prefix.m-n@
 
+! number tags
 @U.number.Sg@
-!@U.number.Du@
-@U.number.Pl@
 @U.number.Plmi@
 
+! person tags
 @U.person.1@
 @U.person.2@
 @U.person.3@
-
-@R.number.Sg@
-!@R.number.Du@
-@R.number.Pl@
-
-@R.person.1@
-@R.person.2@
-@R.person.3@
 
 LEXICON Root
 wa-ya-Class ;

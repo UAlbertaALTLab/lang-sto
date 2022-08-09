@@ -1,7 +1,7 @@
 ! Master compilation for Stoney Nakoda verb morphology
 
-read lexc sto-stems.lexc
-define Stems
+read lexc sto-post.lexc
+define Post
 
 read lexc sto-infixes.lexc
 define Infixes
@@ -15,7 +15,7 @@ define Pref
 source sto-phon.xfscript
 define Phonology
 
-regex [ Stems .o. [ "_" -> "<<" Infixes ">>" ] .o. ["&" -> Pref] ] ;
+regex [ Post .o. [ "_" -> "<<" Infixes ">>" ] .o. ["&" -> Pref] ] ;
 define Verbs
 
 regex [ Verbs Tags ] ;

@@ -25,7 +25,6 @@ define VerbMorphology
 set flag-is-epsilon ON
 regex [ VerbMorphology .o. Phonology ] ;
 set flag-is-epsilon OFF
-
 twosided flag-diacritics
 
 save stack sto.foma

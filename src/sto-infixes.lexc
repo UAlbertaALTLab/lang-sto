@@ -68,8 +68,6 @@ LEXICON wa-ya-Class2
 
 LEXICON m-n-Class
 @R.infix.m-n@ m-n-Infixes ;
-
-LEXICON m-n-Class
 @R.infix.m-n2@ m-n-Infixes2 ;
 
 LEXICON wa-ya-poly

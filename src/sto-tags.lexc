@@ -122,6 +122,54 @@ Multichar_Symbols
 @D.posneg.neg@
 @R.posneg.neg@
 
+! And of course the normal tags
++1Sg
++1SgO
++2Sg
++2SgO
++3Sg
++3SgO
++1Pl
++1PlO
++2Pl
++2PlO
++3Pl
++3PlO
++1Du
++Imp
++Prosp
++Simp
++Fut
++Intent
++Dubit
++Must
++App
++Poss
++Fut
++CountFact
++Anticip
++Prtnd
++Neg
++Pot
++Dec
++Imm
++Imp
++Del
++Cond
++Hypoth
++ContentInterr
++Irr
++Poss2
++When
++Pst
++Pol
++Male
++Desid
++Cert
++Prohb
++Concess
++Rem
+
 LEXICON Root
 Subject ;
 Polypersonal-Portmanteaus ;

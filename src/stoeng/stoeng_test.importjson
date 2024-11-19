@@ -6,7 +6,7 @@
       "pos": "V",
       "stem": "0_cîga",
     },
-    "paradigm": "VT",
+    "paradigm": "VI",
     "senses": [
       {
         "definition": "for S to want O",
@@ -21,7 +21,7 @@
       "pos": "V",
       "stem": "0_hnuda",
     },
-    "paradigm": "VT",
+    "paradigm": "VI",
     "senses": [
       {
         "definition": "for S to eat their own O",
@@ -66,7 +66,7 @@
       "pos": "V",
       "stem": "0_y2uda",
     },
-    "paradigm": "VT",
+    "paradigm": "VI",
     "senses": [
       {
         "definition": "for S to eat O",
@@ -81,7 +81,7 @@
       "pos": "V",
       "stem": "0_y2agda",
     },
-    "paradigm": "VT",
+    "paradigm": "VI",
     "senses": [
       {
         "definition": "for S to drink O",

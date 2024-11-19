@@ -1,0 +1,152 @@
+[
+  {
+    "head": "cîga",
+    "linguistInfo": {
+      "inflectional_category": "wa-ya-Reg",
+      "pos": "V",
+      "stem": "0_cîga",
+    },
+    "paradigm": "VT",
+    "senses": [
+      {
+        "definition": "for S to want O",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "hnuda",
+    "linguistInfo": {
+      "inflectional_category": "wa-ya-Reg",
+      "pos": "V",
+      "stem": "0_hnuda",
+    },
+    "paradigm": "VT",
+    "senses": [
+      {
+        "definition": "for S to eat their own O",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "agdaa",
+    "linguistInfo": {
+      "inflectional_category": "wa-ya-Reg",
+      "pos": "V",
+      "stem": "a_gdaa",
+    },
+    "paradigm": "VI",
+    "senses": [
+      {
+        "definition": "for S to run",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "hnagda",
+    "linguistInfo": {
+      "inflectional_category": "wa-ya-Reg",
+      "pos": "V",
+      "stem": "0_hnagda",
+    },
+    "paradigm": "VI",
+    "senses": [
+      {
+        "definition": "for S to drink their own",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "yúda",
+    "linguistInfo": {
+      "inflectional_category": "m-n-Stems",
+      "pos": "V",
+      "stem": "0_y2uda",
+    },
+    "paradigm": "VT",
+    "senses": [
+      {
+        "definition": "for S to eat O",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "yagda",
+    "linguistInfo": {
+      "inflectional_category": "m-n-Stems",
+      "pos": "V",
+      "stem": "0_y2agda",
+    },
+    "paradigm": "VT",
+    "senses": [
+      {
+        "definition": "for S to drink O",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "ishdima",
+    "linguistInfo": {
+      "inflectional_category": "m-n-Stems",
+      "pos": "V",
+      "stem": "0_ishdima",
+    },
+    "paradigm": "VI",
+    "senses": [
+      {
+        "definition": "for S to be asleep",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "uge",
+    "linguistInfo": {
+      "inflectional_category": "poly-wa-ya",
+      "pos": "V",
+      "stem": "u_ge",
+    },
+    "paradigm": "VT",
+    "senses": [
+      {
+        "definition": "for S to help O",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "apa",
+    "linguistInfo": {
+      "inflectional_category": "poly-wa-ya",
+      "pos": "V",
+      "stem": "a_pa",
+    },
+    "paradigm": "VT",
+    "senses": [
+      {
+        "definition": "for S to hit O",
+        "sources": "McA&K&C"
+      }
+    ]
+  },
+  {
+    "head": "nata",
+    "linguistInfo": {
+      "inflectional_category": "poly-wa-ya",
+      "pos": "V",
+      "stem": "na_ta",
+    },
+    "paradigm": "VT",
+    "senses": [
+      {
+        "definition": "for S to kick O",
+        "sources": "McA&K&C"
+      }
+    ]
+  }
+]

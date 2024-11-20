@@ -23,7 +23,7 @@ define i2del [ i2 -> 0 || .#. [ 0 ] _ c ] ;
 
 define aya2aa [ y -> 0 || a _ a ] ;
 
-!define glottalStopInsertion [ [..] -> %' || Vowel _ "<<" Vowel ] ;
+! define glottalStopInsertion [ [..] -> %' || Vowel _ "<<" Vowel ] ;
 
 define boundaryDeletion [ [ "<<" | ">>" ] -> 0 ] ;
 
